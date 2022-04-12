@@ -16,10 +16,10 @@
   <body>
     <!--Isso aqui é um comentário-->
     <header>
-    <h1>F1 season 2021</h1>
-    <button>Change user</button>
-    
-    <h2 id="subtitle">2021: The greatest season no one could ever wonder</h2>
+    <h1>Welcome</h1>
+    <button class="user-change">Change user</button>
+    <img src="images/F1logo_2018.png" alt="F1 logo">
+    <h2 id="subtitle">F1 season 2021: The greatest season no one could ever wonder</h2>
     <h3>by Jhonny Goya </h3>
     <time datetime="2022-01-04">4 de Janeiro de 2022</time>
     </header>
@@ -31,249 +31,292 @@
       <a href="#">Finance</a>
       <a href="#">Influencers</a>
       <a href="#">Contact</a>
-      
-      <form>
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-      </form>
     </nav>
     
     <main>
       <article>
-    <img src="images/F1logo_2018.png" alt="F1 logo">
-    <aside>
-      Related:
-      <ul>
-        <li>Oficial F1</li>
-        <li>Referencias 1</li>
-        <li>Referencias 2</li>
-        <li>Referencias 3</li>
-        <li>Referencias 4</li>
-      </ul>
-    </aside>
-    <p>This is a quick personal review, with <strong>no deep investigation</strong>, just from a TV spectator point of view. It also, my test page as I 
-      am learning web development. So don't take it too serious, there will be a lot of <strong>passion</strong> moments and <strong>unaccurated</strong> 
-      data, but maybe you'll agree with me on:</p>
-    <p>Reasons that I believe Mercedes and Hamilton lost the championship by <strong>themselves</strong> in the first place.</p>
+        <aside>
+          Related:
+          <ul>
+            <li>Oficial F1</li>
+            <li>Referencias 1</li>
+            <li>Referencias 2</li>
+            <li>Referencias 3</li>
+            <li>Referencias 4</li>
+            <li>
+              <form>
+                <input type="search" name="q" placeholder="Search query">
+                <input type="submit" value="Go!">
+              </form>
+            </li>
+          </ul>
+        </aside>
 
-    <span lang="pt-BR">
-    <p>Ops, em portugues-BR por enquanto.</p>
-    <img src="images/disputa.jpg" alt="disputa">
-    <ul>
-      <p><strong><a href="https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_do_Bar%C3%A9m" title="Wiki - GP Barém" target="_blank">Grande Prêmio do Barém</a></strong></p>
-        <p>Primeiro GP do ano e já a primeira <a href="index.html#subtitle">surpresa</a>, Max faz a pole incontestável e sai na frente. Com a estratégia diferente de pneus, 
-           Hamilton faz o undercut e lidera a segunda metade da corrida, mas Max tem a chance de ultrapassar Hamilton nas voltas finais, e o fez. Mas na mesma volta a RedBull 
-           manda Max devolver a posição por possivel punição. Contrariado, Max devolve e não consegue repetir a ultrapassagem. <br> O curioso é que Hamilton reclama imediatamente 
-           por Max ter excedido os limites da pista, mas o mesmo o fez algumas vezes durante a corrida. Foi um bom começo pra RedBull com uma pequena frustração, e um grande alívio
-            para a Mercedes. </p>
-        <a href="https://youtu.be/xLiSZdMuenk">
-          <img src="images/Checco Bharein recover.png">
-        </a>
-        <input type="text" disabled value="Sorte: 1 Lambança: 0">
-      
-        <p><strong>Grande Prêmio da Emília-Romanha</strong></p>
-          <p>Depois do aquecimento no Barem, Hamilton crava a pole como quem diz: <q> Excuse me, aqui é o patrão.</q> Mas com pista molhada, perde a liderança para Max logo 
-            na primeira curva, numa manobra bem agressiva eu diria, que poderia ter causado algum dano aos carros se Lewis não segurasse o carro. Max abriu vantagem, e Hamilton 
-            correndo atrás do prejuízo, faz <em>lambança</em> sozinho ao tentar ultrapassar retardatários. Saiu da pista, ficou atolado, quebrou a asa dianteira, teve que dar ré
-             na brita, perdeu uma infinidade de posições. <br> Mas a <strong>sorte</strong> de 7x-campeão ajudou, na mesma volta Russel bate em Bottas, safety-car, reduzindo o 
-             prejuízo, mas agora estando em 8<sup>o</sup>. Poderia ser pior.</p>
-            <input type="text" disabled value="Sorte: 2 Lambança: 1">
-      
-            <p><strong>Grande Prêmio de Portugal</strong></p>
-      <p>Domínio da Mercedes, sem lambança, Max até tenta ponto extra mas excede os limites de pista e tem volta deletada (olha os limites de novo aí). Sorte ou erro de Max? 
-        Não contarei pontos aqui.</p>
-      <video poster="Hubadibaduba" controls width="800">
-        <source src="images/GoPro HERO3  Almost as Epic as the HERO3+[hd720].mp4"> <!--outros comandos: autoplay loop muted poster-->
-        <track kind="captions" src="images/WEBVTT.vtt"srclang="es" label="TelaClass">  <!--pq o track não carrega???-->
-      </video>
-        <iframe width="800" height="480" src="https://www.youtube.com/embed/B4USO-aYNZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>This is a quick personal review, with <strong>no deep investigation</strong>, just from a TV spectator point of view. It also, my test page as I 
+          am learning web development. So don't take it too serious, there will be a lot of <strong>passion</strong> moments and <strong>unaccurated</strong> 
+          data, but maybe you'll agree with me on:</p>
+        <p>Reasons that I believe Mercedes and Hamilton lost the championship by <strong>themselves</strong> in the first place.</p>
+
+        <span lang="pt-BR">
+        <p>Ops, em portugues-BR por enquanto.</p>
+        <img src="images/disputa.jpg" alt="disputa">
+
+        <ul>
+          <p id="bahrein"><strong><a href="https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_do_Bar%C3%A9m" title="Wiki - GP Barém" target="_blank">Grande Prêmio do Barém</a></strong></p>
+            <p>Primeiro GP do ano e já a primeira <a href="index.html#bahrein">surpresa</a>, Max faz a pole incontestável e sai na frente. Com a estratégia diferente de pneus, 
+              Hamilton faz o undercut e lidera a segunda metade da corrida, mas Max tem a chance de ultrapassar Hamilton nas voltas finais, e o fez. Mas na mesma volta a RedBull 
+              manda Max devolver a posição por possivel punição. Contrariado, Max devolve e mas devido ao desgaste dos pneus não consegue repetir a ultrapassagem. <br> O curioso 
+              é que Hamilton reclama imediatamente por Max ter excedido os limites da pista, mas o mesmo o fez algumas vezes durante a corrida. Foi um bom começo pra RedBull com 
+              uma pequena frustração, e um grande alívio para a Mercedes.</p>
+            <a href="https://youtu.be/4WGoYtYJXFw" target="_blank">Watch on YouTube
+              <img src="https://i.ytimg.com/an_webp/4WGoYtYJXFw/mqdefault_6s.webp?du=3000&sqp=CLzj0pIG&rs=AOn4CLDdVdVaGbeKyCd4fILSL43-AwbUPg" alt="Race Highlights"></a>
+            <input type="text" disabled value="Sorte: 1 Lambança: 0">
+            
         
+          <p id="emilia-romana"><strong>Grande Prêmio da Emília-Romana</strong></p>
+            <p>Depois do aquecimento no Barem, Hamilton crava a pole como quem diz: <q> Excuse me, aqui é o patrão.</q> Mas com pista molhada, perde a liderança para Max logo 
+              na primeira curva, numa manobra bem agressiva eu diria, que poderia ter causado algum dano aos carros se Lewis não segurasse o carro. Max abriu vantagem, e Hamilton 
+              correndo atrás do prejuízo, faz <em>lambança</em> sozinho ao tentar ultrapassar retardatários. Saiu da pista, ficou atolado, quebrou a asa dianteira, teve que dar ré
+              na brita, perdeu uma infinidade de posições. <br> Mas a <strong>sorte</strong> de 7x-campeão ajudou, na mesma volta Russel bate em Bottas, safety-car, reduzindo o 
+              prejuízo, mas agora estando em 8<sup>o</sup>. Poderia ser pior.</p>
+            <input type="text" disabled value="Sorte: 2 Lambança: 1">
+        
+          <p id="portugal"><strong>Grande Prêmio de Portugal</strong></p>
+            <p>Domínio da Mercedes, sem lambança, Max até tenta ponto extra mas excede os limites de pista e tem volta deletada (olha os limites de novo aí). Sorte ou erro de Max? 
+            Não contarei pontos aqui.</p>
+            <a href="https://www.youtube.com/watch?v=dMv5PaQ1fwo" target="_blank">Watch on YouTube
+              <img src="https://i.ytimg.com/an_webp/dMv5PaQ1fwo/mqdefault_6s.webp?du=3000&sqp=CJLS0pIG&rs=AOn4CLAkzK_N3glwhc9Icvj-ad_6JrgqdQ" alt="Race Highlights"></a>
+            <input type="text" disabled value="Sorte: 2 Lambança: 1">
+        
+          <p id="Espanha"><strong>Grande Prêmio da Espanha</strong></p>
+            <p>Novamente domínio da Mercedes, mas agora começam a reclamar da asa da Redbull que é flexivel demais. Mas a asa dianteira da Mercedes também... aí?</p>
+            <input type="text" disabled value="Sorte: 2 Lambança: 1">
 
-         <input type="text" disabled value="Sorte: 2 Lambança: 1">
+          <p id="monaco"><strong>Grande Prêmio de Monaco</strong></p>
+            <p>Fim de semana fraquíssimo da Mercedes. Hamilton, ficou onde largou. Dá pra contar algo? Se sim é culpa deles mesmos então que não conseguiram fazer NADA.</p>
+            <a href="https://www.youtube.com/watch?v=UUyUA91ILsE" target="_blank">Watch on YouTube
+              <img src="https://i.ytimg.com/an_webp/UUyUA91ILsE/mqdefault_6s.webp?du=3000&sqp=CKLN0pIG&rs=AOn4CLCP6_aAxqMiKTDX3kJzkNpP2oeXPg" alt="Race Highlights"></a>
+            <input type="text" disabled value="Sorte: 2 Lambança: 2">
+        
+          <p id="azerbaijao"><strong>Grande Prêmio do Azerbaijão</strong></p>
+            <p>Essa talvez seja a maior lambança do campeonato. Perdendo no mínimo 18 pontos de graça... Magic button</p>
+            <a href="https://www.youtube.com/watch?v=yD5ndKSjvFc" target="_blank">Watch on YouTube
+              <img src="https://i.ytimg.com/an_webp/yD5ndKSjvFc/mqdefault_6s.webp?du=3000&sqp=CKy90pIG&rs=AOn4CLBCZnfYUMAx5qjQnX-idZg6HQ6gxg" alt="Race Highlights"></a>
+            <input type="text" disabled value="Sorte: 2 Lambança: 3">
+        
+          <p id="frança"><strong>Grande Prêmio da França</strong></p>
+            <p>Aqui só digo uma coisa, companheiro, ajuda aí né?</p>
+            <input type="text" disabled value="Sorte: 2 Lambança: 3">
+          
+          <p id="estiria"><strong>Grande Prêmio da Estiria</strong></p>
+            <p>Festa Laranja: Dominio absoluto da Redbull!</p>
+            <input type="text" disabled value="Sorte: 2 Lambança: 3">
+          
+          <p id="austria"><strong>Grande Prêmio da Áustria</strong></p>
+            <p>Festa Laranja: Dominio absoluto da Redbull!</p>
+            <input type="text" disabled value="Sorte: 2 Lambança: 3">
+          
+          <p id="gra-betanha"><strong>Grande Prêmio da Grã-Betanha</strong></p>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=oIKel6jVD3Q" target="_blank">
+                <img src="https://i.ytimg.com/an_webp/oIKel6jVD3Q/mqdefault_6s.webp?du=3000&sqp=CKDO0pIG&rs=AOn4CLAOOydcG5mQLDn_LgOjJnoc_XTQ3g" alt="Race Highlights">
+                <img src="images/gp_gb.jpg" class="gp_gb" alt="GP Grã-Betanha">
+                <figcaption>Watch on YouTube</figcaption></a>
+            </figure>
+            <p>Polemica: Max muito agressivo, ou Hamilton procurando um gap? Na duvida colocarei como erro de Max, sendo que ele não repetiu mais o mesmo erro. Sorte então pra Mercedes.</p>
+            <blockquote cite="http://blog.tribunadonorte.com.br/alexmedeiros/2021/07/30/clima-quente-na-formula-um/"> 
+              <p>Na mídia:<i> "Depois do holandês fazer umas queimações no rival, por causa da última corrida, onde ele saiu da pista numa disputa com o inglês, o pessoal da Mercedes 
+                não economizou críticas e, para incendiar mais o clima, o próprio Hamilton disse que se tiver outra situação igual “faria a mesma coisa” que fez em Silverstone. 
+                A imprensa que cobre os treinos já insinua o início de uma tremenda guerra.</i></p></blockquote>
+            <input type="text" disabled value="Sorte: 3 Lambança: 3">  
+        
+          <p id="hungria"><strong>Grande Prêmio da Hungria</strong></p>
+            <p>Sabe aquela ajudinha lá? "Podedexá, entendido". Aqui não vou deixar de protestar que foi muita mas muuuuita sorte: Pra não dizer que foi roubado. Strike pegando 
+            2 Redbull, mais o menino Norris que vem brilhando. Foi melhor que encomenda. Mas a Mercedes tb protagonizou o que foi uma largada épica de 1 carro no grid. Lambança! 
+            Custou a liderança. E por sorte Seb foi desclassificado pós-corrida (quais as chances de isso acontecer?). Preste atenção: Sorte dupla com lambança épica.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">      
+        
+          <p id="belgica"><strong>Grande Prêmio da Bélgica</strong></p>
+            <p>Outro GP molhado, não teve corrida. Então deram, metade dos pontos. 3o lugar seria sorte ou azar? Deixemos como está.</p>
+            <hr>
+              <dl>
+                <dt>Michael Masi</dt>
+                  <dd>Diretor de prova. Esse cara ganha os holofotes a partir desta corrida. Antes como um cara sendo muito mão leve, indeciso, depois com conduta duvidosa. 
+                    Os audios entre equipes e eles acabam se tornando mais relevante, pois a briga começa a sair dos limites da pista e chega a um nivel político.</dd>
+              </dl>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+
+          <p id="paises-baixos"><strong>Grande Prêmio dos Países Baixos</strong></p>
+            <p>Casa de Max, não deu outra.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+
+          <p id="italia"><strong>Grande Prêmio da Itália</strong></p>
+            <p><a href="index.html#gra-betanha">Lembra do que aconteceu até agora?</a> Duas feras já estão babando. Ninguém arreda o pé pra ninguém. Pois é. Sorte da Mclaren!</p>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=4egdMwxAFl4" target="_blank">
+                <img src="https://i.ytimg.com/an_webp/4egdMwxAFl4/mqdefault_6s.webp?du=3000&sqp=CK6-0pIG&rs=AOn4CLDrhczmk5LuIzii-Kib0TGSbsRDag" alt="Race Highlights">
+                <figcaption>Watch on YouTube</figcaption></a>
+            </figure>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+
+          <p id="russia"><strong>Grande Prêmio da Rússia</strong></p>
+            <p>Aqui faremos uma pausa na briga pelo campeonato, pois Redbull troca o motor completo de Max então ele larga do fim do grid. Dava pra imagina uma corrida sem emoção né?
+              Pois é, mas a Maclaren vem numa ascendente e Lando Norris brilhou. Largando na pole, o menino ficou boa parte da corrida na frente, o que parecia ser a sua primeira 
+              vitoria até que a chuva nas ultimas voltas mudou tudo. Lewis seguiu a ordem da equipe e trocou os pneus para intermediário, tendo vantagem pra caçar Norris. 
+              Arriscou, verdade? Porque Max fez o mesmo, e sendo que o mais importante não era caçar o Norris, e sim garantir que Max não o ultrapasse! Mesmo ganhando a corrida, 
+              sendo uma das mais heartbreaking, o olho tava no gato, que chegou em segundo. Não contarei como sorte aqui não, porque era dever da Mercedes tá de olho no Max.</p>
+              <figure>
+                <a href="https://www.youtube.com/watch?v=wkyhWfloqFI" target="_blank">
+                  <img src="https://i.ytimg.com/an_webp/wkyhWfloqFI/mqdefault_6s.webp?du=3000&sqp=CNjA0pIG&rs=AOn4CLAq9TkAbeUM8zqEf8pDxfLv2cI-QQ" alt="Race Highlights">
+                  <figcaption>Watch on YouTube</figcaption></a>
+              </figure>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+          
+          <p id="turquia"><strong>Grande Prêmio da Turquia</strong></p>
+            <p>Estatisticamente era pra dar Hamilton+Mercedes, mas deu Bottas, e as RedBull na sequencia. Não me lembro, preciso ver o <abbr title="Race Highlights">VT</abbr>. Não contarei pontos, mas curioso.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+
+          <p id="eua"><strong>Grande Prêmio dos Estados Unidos</strong></p>
+            <p>Grande festa pra Hamilton e seus amigos celebridades... mas Verstapen jogou água no Chopp. Outra na contra-tendencia.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+          
+          <p id="mexico"><strong>Grande Prêmio da Cidade do México</strong></p>
+            <p>Grande festa pra Checo! mas foi Verstapen quem levou, com Hamilton em segundo. A tequila foi garantida pelo podio de Checco.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 4">
+
+          <p id="sao-paulo"><strong>Grande Prêmio de São Paulo</strong></p>
+            <p>Hamilton troca só o módulo de combustão e tem velocidade nas retas 15km/h a mais que o resto. Bom com puniçao de posições, largando em décimo não deu tempo pra 
+              escalar pra vitoria da Sprint Race, mesmo assim teve um excelente resultado se não fosse pela irregularidade na asa. A desqualificação da Sprint, multa pra Max por 
+              ter tocado na asa traseira, papinho pra boi dormir da Mercedes alegando que Max poderia ter quebrado o mecanismo. Bom, a Mercedes ficou doida, o Tio (Toto) tava on fire. 
+              Na corrida, com muito mais voltas, Hamilton foi escalando o pelotão até chegar em Max, que se você leu até aqui, não ia de jeito nenhum arredar o pé. Levou a disputa 
+              pra fora das pistas onde Hamilton começou a ficar assustado, mas fez a lição de casa e passou "lacrando", ou seja, não dando chance pra Max retomar a posição. Lewis 
+              entendeu, é só assim mesmo. Foi tão duro o final de semana pra Hamilton que sua comemoração foi digna de Senna'93 (sim, 93 com invasão de pista e não a de 91). Gostei 
+              da comemoração, acho que ele "devia" isso ao público, coisa que Max nunca faria, pelo menos não neste momento.</p>
+              <figure>
+                <a href="https://www.youtube.com/watch?v=uhrAgoHCoyo" target="_blank">
+                  <img src="https://i.ytimg.com/an_webp/uhrAgoHCoyo/mqdefault_6s.webp?du=3000&sqp=COja0pIG&rs=AOn4CLA8yAcA3I_vVvGNigj7CMeVKCTp9g" alt="Race Highlights">
+                  <figcaption>Watch on YouTube</figcaption></a>
+              </figure>
+              <input type="text" disabled value="Sorte: 5 Lambança: 5">
+
+          <p id="catar"><strong>Grande Prêmio do Catar</strong></p>
+            <p>Super motor de Hamilton continuou dominando. Sem surpresas.</p>
+            <input type="text" disabled value="Sorte: 5 Lambança: 5">
+
+          <p id="arabia-saudita"><strong>Grande Prêmio da Arábia Saudita</strong></p>
+            <p>Pior circuito da temporada na minha opinião. Um minhocão estreito sem propósito que até atrapalha na filmagem do evento. Super motor de Hamilton continuou dominando. 
+              Mas com surpresas, com Max jogando tudo literalmente pra cima de Hamilton. Diversas punições para o holandês. Enfim, Bottas ajuda o companheiro, mas não na pista e 
+              sim segurando Max atrás durante o safety car. A malandragem se vira contra a propria Mercedes. Sorte da RedBull aqui com uma bandeira vermelha. Mas nem isso impediu 
+              mais uma vitória do ingles. E o campeonato fica empatado em pontos, com Max tendo 1 vitória a mais de vantagem.</p>
+              <figure>
+                <a href="https://www.youtube.com/watch?v=QS4Z38HhsMc" target="_blank">
+                  <img src="https://i.ytimg.com/an_webp/QS4Z38HhsMc/mqdefault_6s.webp?du=3000&sqp=CJni0pIG&rs=AOn4CLDthv26v1nn-CeOIgzMb_63jWkrLw" alt="Race Highlights">
+                  <figcaption>Watch on YouTube</figcaption></a>
+              </figure>
+              <input type="text" disabled value="Sorte: 5 Lambança: 5">
+
+          <p id="abu-dhabi"><strong>Grande Prêmio de Abu Dhabi</strong></p>
+            <p>Última corrida do ano mega holofotes nessa disputa. E agora? Supermotor de Hamilton contra a agressividade de Verstapen. Houve uma disputa de posição logo na largada,
+              Max, mais uma vez força Lewis pra fora, que corta a chincane e não devolve a vantagem de distancia. Com os pneus macios se desgastando volta a volta a corrida vai ficando
+              pra Hamilton, que nessa corrida foi impecavel. Nem Checco Perez segurando Hamilton pos 5,5s numa unica volta, foi épico, deu chance a Verstapen. Até o acidente de Latifi, 
+              safety car na pista. Posso estar ficando louco, safety car na pista sem realinhamento de posições? Acredito que o erro maior foi o Masi não ter permitido o realinhamento 
+              logo nos primeiros momentos de safety car. E a Mercedes porque não trocou os pneus de Hamilton? Essa é a penalização por estar na frente, não saber o que os de trás irão 
+              fazer... acho que não tinha como. Mesmo. Era só esperar a corrida terminar com o <abbr title="Safety-Car"> SC</abbr>... por isso o desespero no radio. 
+              Agora me diz, com tanta sorte desperdiçada durante o campeonato, tanto mimimi da equipe mais vencedora da era Híbrida... vai me dizer que perderam na última volta? 
+              Tropeçaram nas orelhas o campeonato inteiro. Bottas nunca ofereceu resistencia à Verstapen, mesmo marcando mais pontos que Checco e tirando pontos de Verstapen, não tem 
+              como dizer que brigou pelo time.
+              Hamilton no ano, sofreu com Verstapen, com Checco, com Alonso, com Norris, retardatários. Acho que não teve tantos rivais preparados nos anos anteriores. Queria ver Rosberg 
+              não se aposentando. Aquele 1<sup>o</sup> título, que era pra ser do Massa, tb foi culpa da Ferrari o ano todo tropeçando. Eu gosto do Hamilton, mas ele tá deixando de lado o esporte 
+              pra lutar por uma causa que pode ser nobre, mas não é o esporte. E a Mercedes pra mim ganha o troféu MIMIMI, reclamou de tudo e o tempo todo... ao contrário da Redbull que 
+              além de saber como seguir as regras, se antecipava negociando com o controle de prova, mas nunca retrucando ou fingindo demencia. Claro que o que a Liberty TV mostra pode 
+              ter sido só uma parte.</p>
+              <figure>
+                <a href="https://www.youtube.com/watch?v=7QJ-N-AQJYc" target="_blank">
+                  <img src="https://i.ytimg.com/an_webp/7QJ-N-AQJYc/mqdefault_6s.webp?du=3000&sqp=CKzU0pIG&rs=AOn4CLCXMrD74FUpo6_g-JIAfEylf3W4-Q" alt="Race Highlights">
+                  <figcaption>Watch on YouTube</figcaption></a>
+              </figure>
+            <input type="text" disabled value="Sorte: 5 Lambança: 5">
+        </ul>
+  
+        <table>
+          <caption>Resumo da opera</caption>
+          
+          <thead>
+            <tr>
+              <th>Matemática da temporada</th>
+              <th>2021</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td>Lambança da Mercedes</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Sorte a favor da Mercedes</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Pontos potencialmente perdidos</td>
+              <td>39</td>
+            </tr>
+            <tr>
+              <td>Pontos potencialmente favorecidos</td>
+              <td>14</td>
+            </tr>
+          </tbody>
+        
+          <tfoot>
+            <td colspan="2">Este texto está no foot?</td>
+          </tfoot>
+
+        </table>
       
-         <p><strong>Grande Prêmio da Espanha</strong></p>
-      <p>Novamente domínio da Mercedes, mas agora começam a reclamar da asa da Redbull que é flexivel demais. Mas a asa dianteira da Mercedes também... aí?</p>
+        <br>
+        </span>
+        
+      </article>
+  
+      <br>
+    
+    </main>
+
+    <svg width="100%" height="100%">
+      <rect width="100%" height="100%" fill="green" />
+      <polygon points="800,0 1640,225 0,225" fill="yellow"/>
+      <circle cx="93%" cy="125%" r="150" fill="blue" stroke="black" />
+      <text x="50" y="100" font-family="Verdana" font-size="55"
+            fill="white" stroke="black" stroke-width="2">
+              made in Brazil
+      </text>
+    </svg>
+ 
+    <!--
+      Outros comandos: autoplay loop muted poster;
+      Pq o track não carrega???
+      <video poster="Hubadibaduba" controls width="800"> 
+        <source src="images/GoPro HERO3  Almost as Epic as the HERO3+[hd720].mp4"> 
+        <track kind="captions" src="images/WEBVTT.vtt"srclang="es" label="TelaClass">  
+      </video> 
+
+      Embeded video disabled by F1 management 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dMv5PaQ1fwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       <audio controls>
         <source src="images/Gold Finger - Superman.mp3" type="audio/mp3">
-
         <source src="images/15 Track 15.wma" type="audio/wma">
         <p>Your browser did support HTML5 audio. Here is a <a href="images/15 Track 15.wma">link to the audio</a>instead.</p>
       </audio>
-
-      <p><strong>Grande Prêmio de Monaco</strong></p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16784.664409303437!2d7.427831384871309!3d43.73820628914085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1642439958998!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <p>Fim de semana fraquíssimo da Mercedes. Hamilton, ficou onde largou. Dá pra contar algo? Se sim é culpa deles mesmos então que não conseguiram fazer NADA.</p>
-      <input type="text" disabled value="Sorte: 2 Lambança: 2">
-      
-      <p><strong>Grande Prêmio do Azerbaijão</strong></p>
-      <p>Essa talvez seja a maior lambança do campeonato. Perdendo no mínimo 18 pontos de graça... Magic button</p>
-      <input type="text" disabled value="Sorte: 2 Lambança: 3">
-      
-      <p><strong>Grande Prêmio da França</strong></p>
-      <iframe width="800" height="480" src="https://www.youtube.com/embed/BDf1RDu3YVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Aqui só digo uma coisa, companheiro, ajuda aí né?</p>
-      <input type="text" disabled value="Sorte: 2 Lambança: 3">
-      
-      <p><strong>Grande Prêmio da Estiria</strong></p>
-      <p>Dominio absoluto da Redbull</p>
-      <input type="text" disabled value="Sorte: 2 Lambança: 3">
-      
-      <p><strong>Grande Prêmio da Áustria</strong></p>
-      <p>Dominio absoluto da Redbull</p>
-      <input type="text" disabled value="Sorte: 2 Lambança: 3">
-      
-      <p><strong>Grande Prêmio da Grã-Betanha</strong></p>
-      <figure>
-        <img src="images/gp_gb.jpg" class="gp_gb" alt="GP Grã-Betanha">
-        <figcaption>Look for a gap</figcaption>
-      </figure>
-      <p>Polemica: Max muito agressivo, ou Hamilton procurando um gap? Na duvida colocarei como erro de Max, sendo que ele não repetiu mais o mesmo erro. Sorte então pra Mercedes.</p>
-      <blockquote cite="http://blog.tribunadonorte.com.br/alexmedeiros/2021/07/30/clima-quente-na-formula-um/"> <p> 
-        Na mídia:<i> "Depois do holandês fazer umas queimações no rival, 
-        por causa da última corrida, onde ele saiu da pista numa disputa com o inglês, o pessoal da Mercedes não economizou críticas e, para incendiar mais o clima, o próprio 
-        Hamilton disse que se tiver outra situação igual “faria a mesma coisa” que fez em Silverstone. A imprensa que cobre os treinos já insinua o início de uma tremenda guerra.</i>
-      </p></blockquote>
-        <input type="text" disabled value="Sorte: 3 Lambança: 3">  
-      
-      <p><strong>Grande Prêmio da Hungria</strong></p>
-      <p>Sabe aquela ajudinha lá? "Podedexá, entendido". Aqui não vou deixar de protestar que foi muita mas muuuuita sorte: Pra não dizer que foi roubado. Strike pegando 
-        2 Redbull, mais o menino Norris que vem brilhando. Foi melhor que encomenda. Mas a Mercedes tb protagonizou o que foi uma largada épica de 1 carro no grid. Lambança! 
-        Custou a liderança. E por sorte Seb foi desclassificado pós-corrida (quais as chances de isso acontecer?). Preste atenção: Sorte dupla com lambança épica.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">      
-      
-      <p><strong>Grande Prêmio da Bélgica</strong></p>
-      <p>Outro GP molhado, não teve corrida. Então deram, metade dos pontos. 3o lugar seria sorte ou azar? Deixemos como está.</p>
-      <hr>
-      <dl>
-        <dt>Michael Masi</dt>
-        <dd>Diretor de prova. Esse cara ganha os holofotes a partir desta corrida. Antes como um cara sendo muito mão leve, indeciso, depois com conduta duvidosa. Os audios entre equipes e eles
-          acabam se tornando mais relevante, pois a briga começa a sair dos limites da pista e chega a um nivel político.
-        </dd>
-      </dl>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-
-      <p><strong>Grande Prêmio dos Países Baixos</strong></p>
-      <p>Casa de Max, não deu outra.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-
-      <p><strong>Grande Prêmio da Itália</strong></p>
-      <p>Lembra do que aconteceu até agora? Duas feras já estão babando. Ninguém arreda o pé pra ninguém. Pois é. Sorte da Mclaren!</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-
-      <p><strong>Grande Prêmio da Rússia</strong></p>
-      <p>Redbull troca o motor completo de Max então ele larga do fim do grid. Dava pra imagina uma corrida sem emoção né? Pois é, mas só se Lando Norris. Largando na pole,
-        o menino ficou boa parte da corrida na frente, o que parecia ser a sua primeira vitoria até que a chuva nas ultimas voltas mudou tudo. Lewis seguiu a ordem da equipe
-        e trocou os pneus, tendo vantagem pra caçar Norris. Arriscou, verdade? Porque Max fez o mesmo, e sendo que o mais importante não é caçar o Norris, é garantir
-        que Max não o ultrapasse! Mesmo ganhando a corrida, sendo uma das mais heartbreaking, o olho tava no gato, que chegou em segundo. Não contarei como sorte aqui não,
-        porque era dever da Mercedes tá de olho no Max.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-      
-      <p><strong>Grande Prêmio da Turquia</strong></p>
-      <p>Estatisticamente era pra dar Hamilton+Mercedes, mas deu Bottas, e as RedBull na sequencia. Não me lembro, preciso ver o <abbr title="Race Highlights">VT</abbr>. Não contarei pontos, mas curioso.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-
-      <p><strong>Grande Prêmio dos Estados Unidos</strong></p>
-      <p>Grande festa pra Hamilton e seus amigos celebridades... mas Verstapen jogou água no Chopp. Outra na contra-tendencia.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-      
-      <p><strong>Grande Prêmio da Cidade do México</strong></p>
-      <p>Grande festa pra Checo! mas foi Verstapen quem levou, com Hamilton em segundo. A tequila foi garantida pelo podio de Checco.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 4">
-
-      <p><strong>Grande Prêmio de São Paulo</strong></p>
-      <p>Hamilton troca só o módulo de combustão e tem velocidade nas retas 15km/h a mais que o resto. Bom com puniçao de posições, largando em décimo não deu tempo pra 
-        escalar pra vitoria, mesmo assim teve um excelente resultado se não fosse pela irregularidade na asa. Desqualificação da Sprint. Multa pra Max por ter tocado 
-        na asa traseira, papinho pra boi dormir da Mercedes alegando que Max poderia ter quebrado o mecanismo. Bom, a Mercedes ficou doida, o Tio tava on fire. Na corrida 
-        com muito mais voltas, Hamilton foi escalando o pelotão até chegar em Max, que se você leu até aqui, não ia de jeito nenhum arredar o pé. Levou a disputa pra fora 
-        das pistas onde Hamilton começou a ficar assustado, mas fez a lição de casa e passou "lacrando", ou seja, não dando chance pra Max retomar a posição. Lewis entendeu, 
-        é só assim mesmo. Foi tão duro o final de semana pra Hamilton que sua comemoração foi digna de Senna 93 (sim, 93 com invasão de pista e não a de 91). Gostei da comemoração,
-        acho que ele "devia" isso ao público, coisa que Max nunca faria, pelo menos não neste momento.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 5">
-
-      <p><strong>Grande Prêmio do Catar</strong></p>
-      <p>Super motor de Hamilton continuou dominando. Sem surpresas.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 5">
-
-      <p><strong>Grande Prêmio da Arábia Saudita</strong></p>
-      <p>Pior circuito da temporada na minha opinião. Um minhocão estreito sem propósito que até atrapalha na filmagem do evento. Super motor de Hamilton continuou dominando. 
-        Mas com surpresas, com Max jogando tudo literalmente pra cima de Hamilton. Diversas punições para o holandês. Enfim, Bottas ajuda o companheiro, mas não na pista e 
-        sim segurando Max atrás durante o safety car. A malandragem se vira contra a propria Mercedes. Sorte da RedBull aqui com uma bandeira vermelha. Mas nem isso impediu 
-        mais uma vitória do ingles. E o campeonato fica empatado em pontos, com Max tendo 1 vitória a mais de vantagem.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 5">
-
-      <p><strong>Grande Prêmio de Abu Dhabi</strong></p>
-      <p>Última corrida do ano mega holofotes nessa disputa. E agora? Supermotor de Hamilton contra a agressividade de Verstapen. Houve uma disputa de posição logo na largada,
-        Max, mais uma vez força Lewis pra fora, que corta a chincane e não devolve a vantagem de distancia. Com os pneus macios se desgastando volta a volta a corrida vai ficando
-        pra Hamilton, que nessa corrida foi impecavel. Nem Checco Perez segurando Hamilton pos 5,5s numa unica volta, foi épico, deu chance a Verstapen. Até o acidente de Latifi, 
-        safety car na pista. Posso estar ficando louco, safety car na pista sem realinhamento de posições? Acredito que o erro maior foi o Masi não ter permitido o realinhamento 
-        logo nos primeiros momentos de safety car. E a Mercedes porque não trocou os pneus de Hamilton? Essa é a penalização por estar na frente, não saber o que os de trás irão 
-        fazer... acho que não tinha como. Mesmo. Era só esperar a corrida terminar com o <abbr title="Safety-Car"> SC</abbr>... por isso o desespero no radio. 
-        Agora me diz, com tanta sorte desperdiçada durante o campeonato, tanto mimimi da equipe mais vencedora da era Híbrida... vai me dizer que perderam na última volta? 
-        Tropeçaram nas orelhas o campeonato inteiro. Bottas nunca ofereceu resistencia à Verstapen, mesmo marcando mais pontos que Checco e tirando pontos de Verstapen, não tem 
-        como dizer que brigou pelo time.
-        Hamilton no ano, sofreu com Verstapen, com Checco, com Alonso, com Norris, retardatários. Acho que não teve tantos rivais preparados nos anos anteriores. Queria ver Rosberg 
-        não se aposentando. Aquele 1<sup>o</sup> título, que era pra ser do Massa, tb foi culpa da Ferrari o ano todo tropeçando. Eu gosto do Hamilton, mas ele tá deixando de lado o esporte 
-        pra lutar por uma causa que pode ser nobre, mas não é o esporte. E a Mercedes pra mim ganha o troféu MIMIMI, reclamou de tudo e o tempo todo... ao contrário da Redbull que 
-        além de saber como seguir as regras, se antecipava negociando com o controle de prova, mas nunca retrucando ou fingindo demencia. Claro que o que a Liberty TV mostra pode 
-        ter sido só uma parte.</p>
-      <input type="text" disabled value="Sorte: 5 Lambança: 5">
-    </ul>
   
-  <table>
-    <caption>Resumo da opera</caption>
-    <thead>
-    <tr>
-      <th>Matemática da temporada</th>
-      <th>2021</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lambança da Mercedes</td>
-      <td>5</td>
-      </tr>
-    <tr>
-      <td>Sorte a favor da Mercedes</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Pontos potencialmente perdidos</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <td>Pontos potencialmente favorecidos</td>
-      <td>14</td>
-    </tr>
-  </tbody>
+    -->
   
-  <tfoot>
-    <td colspan="2">Este texto está no foot?</td>
-  </tfoot>
-  </table>
- 
-  <br>
-</span>
-  
-  
-  </article>
-  <br>
-  </main>
-  <svg width="100%" height="100%">
-    <rect width="100%" height="100%" fill="green" />
-    <polygon points="800,0 1640,225 0,225" fill="yellow"/>
-    <circle cx="92%" cy="125%" r="150" fill="blue" stroke="black" />
-    <text x="50" y="100" font-family="Verdana" font-size="55"
-          fill="white" stroke="black" stroke-width="2">
-            Hello World!
-    </text>
-  </svg>
-
-  
-  <footer>
-  <a href="mailto:jj_kenji@hotmail.com?cc=jhonnykenji@gmail.com&subject=O%20que%20achei">Send a email to me</a>
-    <address>São Paulo - Brazil</address>
-  </footer>  
+    <footer>
+      <a href="mailto:jj_kenji@hotmail.com?cc=jhonnykenji@gmail.com&subject=O%20que%20achei">Send a email to me</a>
+      <address>São Paulo - Brazil</address>
+    </footer>  
 
     <script src="scripts/main.js" defer></script>
+
   </body>
 </html>

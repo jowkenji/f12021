@@ -9,16 +9,16 @@ myImage.onclick = function() {
     }
 }
 
-let myButton = document.querySelector('button');
+let myButton = document.querySelector('.user-change');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-    let myName = prompt('Please enter your name.');
+    let myName = prompt('Please enter your name:');
     if(!myName) {
         setUserName();
       } else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'Mozilla is cool, ' + myName;
+        myHeading.textContent = 'Welcome, ' + myName;
       }
 }
 
