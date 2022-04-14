@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    width: 80%;
-    max-width: 860px;
+    /*width: 80%;
+    max-*/width: 860px;
     margin: 0 auto;
     background-color: #ff9500;
     padding: 0 20px 20px 20px;
