@@ -6,7 +6,7 @@
 <br> - <strike>One subject only (F1 season 2021)</strike>;
 <br> - <strike>Nav position and internal links</strike>;
 <br> - Responsive layout (<strike>nav, body</strike> and images);
-<br> - Nav and aside menu layout;
+<br> - <strike>Nav and aside menu layout</strike>; not definitive;
 <br> - Flexbox / Grid Layout;
 <br> - JavaScript interaction (Functions, OOP, EventListener, API, new feature: User "Fair Result");
 <br>
