@@ -57,13 +57,13 @@ img {
 }
 
 aside {
-    width: 40%;
+    width: 30%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
+    box-shadow: inset 5px 0px 5px -5px black;/*#29627e;*/
     font-style: italic;
-    color: #29627e;
+    /*color: #29627e;*/
 }
 
 aside > p {
