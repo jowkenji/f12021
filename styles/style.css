@@ -2,15 +2,19 @@ html {
     font-size: 20px;  /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: 'Roboto', sans-serif;  /* this should be the rest of the output you got from Google fonts */
     background-color: #00539F;
+    min-height: 100%;       /* Look, it's not fixed anymore! */
+    display: flex;          /* fix the height problem */
+    flex-direction: column; /* fix the height problem */
 }
 
 body {
-    /*width: 80%;
-    max-*/width: 860px;
+    width: 90%;
+    max-width: 860px;
     margin: 0 auto;
     background-color: #ff9500;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+    flex-grow: 1;           /* fix the height problem, look html is part of the solution*/
 }
 
 nav {
@@ -109,4 +113,8 @@ tbody {
   
 tfoot {
     font-weight: bold;
+}
+
+form {
+    width: fit-content;
 }
