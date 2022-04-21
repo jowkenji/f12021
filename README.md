@@ -9,5 +9,5 @@
 <br> - <strike>Nav and aside menu layout</strike>; not definitive;
 <br> - Flexbox / Grid Layout;
 <br> - JavaScript interaction (Functions, OOP, EventListener, API, new feature: User "Fair Result");
-<br>
+<br> - <strike>Member's area, user login and create account</strike>;
 <br>And for sure, we don't need to stop here.<br>
