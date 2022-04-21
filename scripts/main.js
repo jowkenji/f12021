@@ -1,14 +1,36 @@
-let myImage = document.querySelector('img');
+// Change Logo image
+let myImage = document.querySelector('#f1Logo');
 
+/*
 myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/F1logo_2018.png') {
-      myImage.setAttribute('src','images/F1logo_2018-2.png');
-    } else {
-      myImage.setAttribute('src','images/F1logo_2018.png');
-    }
-}
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'images/F1logo_2018.png') {
+    myImage.setAttribute('src','images/F1logo_2018-2.png');
+  } else {
+    myImage.setAttribute('src','images/F1logo_2018.png');
+  }
+}*/
 
+// Logo change according with mouse presence
+myImage.addEventListener('mouseover', () => {
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'images/F1logo_2018.png') {
+    myImage.setAttribute('src','images/F1logo_2018-2.png');
+  } else {
+    myImage.setAttribute('src','images/F1logo_2018.png');
+  }
+})
+myImage.addEventListener('mouseleave', () => {
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'images/F1logo_2018.png') {
+    myImage.setAttribute('src','images/F1logo_2018-2.png');
+  } else {
+    myImage.setAttribute('src','images/F1logo_2018.png');
+  }
+})
+
+
+// Change user name
 let myButton = document.querySelector('.user-change');
 let myHeading = document.querySelector('h1');
 
