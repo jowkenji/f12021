@@ -46,7 +46,7 @@
     <fieldset>
         <legend>Create an account</legend>
         <p>
-          <label for="username">User name / login: </label>
+          <label for="username">Username / Login: </label>
           <input type="text" id="username" name="username">
         </p>
         <p>
@@ -65,10 +65,58 @@
           <label for="avatar">Choose profile avatar: </label>
           <input type="file" id="avatar" name="avatar" accept="image/*">
         </p>
+        <p class="helmet">
+          <label for="helmetColor" id="helmetLabel">Helmet color:</label>
+          <input type="color" id="helmetColor" value="red">
+          <img src="images/icons8-motorbike-helmet-64-nocolor.png" id="helmetIcon" class="colorable">
+          <!--<button id="testButton">testButton</button>-->
+        </p>
+        <p>
+          <label for="">Your Favourite Driver:</label>
+          <input type="text" list="listDrivers" id="favDriver">
+          <datalist id="listDrivers">
+            <option>Charles Leclerc</option>
+            <option>George Russel</option>
+            <option>Carlos Sainz Jr</option>
+            <option>Sergio Perez</option>
+            <option>Lewis Hamilton</option>
+            <option>Max Verstappen</option>
+            <option>Esteban Ocon</option>
+            <option>Lando Norris</option>
+            <option>Kevin Magnussen</option>
+            <option>Valteri Bottas</option>
+            <option>Daniel Ricciardo</option>
+            <option>Pierre Gasly</option>
+            <option>Yuki Tsunoda</option>
+            <option>Fernando Alonso</option>
+            <option>Guanyu Zhou</option>
+            <option>Alexander Albon</option>
+            <option>Mick Schummacher</option>
+            <option>Lance Stroll</option>
+            <option>Nico Hulkenberg</option>
+            <option>Nicholas Latifi</option>
+            <option>Sebastian Vettel</option>
+          </select>
+        </p>
+        <p>
+          <label for="favTeam">Your Favourite Team:</label>
+          <select id="favTeam" name="favTeam">
+            <option>Alfa Romeo</option>
+            <option>AlphaTauri</option>
+            <option>Alpine</option>
+            <option>Aston Martin</option>
+            <option>Ferrari</option>
+            <option>Haas</option>
+            <option>McLaren</option>
+            <option>Mercedes</option>
+            <option>RedBull</option>
+            <option>Williams</option>
+          </select>
+        </p>       
         <p>
           <input type="submit" value="Create!">
         </p>
       </fieldset>
     </form>
-
+    <script src="scripts/login.js" defer></script>
   </body>

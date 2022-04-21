@@ -118,3 +118,13 @@ tfoot {
 form {
     width: fit-content;
 }
+
+.helmet {
+    display: flex;
+    flex-direction: row;
+}
+
+#helmetIcon {
+    width: 64px;
+    
+}
