@@ -11,7 +11,7 @@
   <li> Flexbox / Grid Layout; 💭 not sure if will be implemented;</li>
   <li> JavaScript interaction:</li>
   <ul>
-    <li>new feature: User "Fair Result"; ⏺️ In progress; </li>
+    <li>User's opinion "Result"; Done ✔️ </li>
     <li>EventListener / Doc manipulation / manipulate CSS (coloring helmet); Done ✔️</li>
     <li>Separate Login / Register sections; 🔜 Coming soon </li>
     <li>Build a JSON to store information; 🔜 Coming soon </li>
