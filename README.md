@@ -14,7 +14,7 @@
     <li>User's opinion "Result"; Done ✔️ </li>
     <li>EventListener / Doc manipulation / manipulate CSS (coloring helmet); Done ✔️</li>
     <li>Separate Login / Register sections; 🔜 Coming soon </li>
-    <li>Build a JSON to store information; 🔜 Coming soon </li>
+    <li>Build a JSON to store information; Done ✔️ Use it...🔜 Coming soon </li>
   </ul>
 </ul>
 <br> And for sure, we don't need to stop here.<br>
