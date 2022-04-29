@@ -1,6 +1,6 @@
 # F1 2021
-<br>Hello! This is my very first website. It was designed when I was learning web development (HTML and CSS).
-<br>At first it was a completely mess! Because I put every < tag > that I've learnt to see its effects.
+<br>Hello! This is my very first website. It was designed when I was learning web development (HTML+CSS).
+<br>At first it was a completely mess! Because I put every < tag > that I was learning to see its effects.
 <br>You will find two main sections:
 <ul>
   <li>The main article (like a blog);</li>
@@ -24,8 +24,8 @@
 <ul>
   <li> ⚠️Nav and aside menu layout; not definitive;</li>
   <li> 💭Flexbox / Grid Layout; not sure if / where / how it will be implemented;</li>
-  <li> 🔜 Separate Login / Register sections; </li>
   <li> 🔜 Refactor the code using the JSON file; </li>
-  <li> 🔜 User can say how many points he think it should be;</li>
+  <li> 🔜 Separate Login / Register sections; </li>
+  <li> 🔜 User can say how many points he thinks it should be;</li>
   <li> 🔜 Favorite Team colors mode (like Dark / Light mode);</li>
 <br> And for sure, we don't need to stop here.<br>
