@@ -1,4 +1,4 @@
-# F1 2021
+# F1 season 2021 blog
 <br>Hello! This is my very first website. It was designed when I was learning web development (HTML+CSS).
 <br>At first it was a completely mess! Because I put every < tag > that I was learning to see its effects.
 <br>You will find two main pages:
