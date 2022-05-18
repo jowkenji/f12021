@@ -19,7 +19,8 @@ myImage.addEventListener('mouseleave', () => {
   }
 })
 
-// **** Change user name ****
+// **** Change user name **** => Disabled
+/*
 let myButton = document.querySelector('.user-change');
 let myHeading = document.querySelector('h1');
 
@@ -43,6 +44,7 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
     setUserName();
 }
+*/
 
 // **** Interactive board ****
 let resultadoFinal = document.querySelector('#resultadoFinal');
