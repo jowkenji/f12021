@@ -3,20 +3,12 @@ let myImage = document.querySelector('#f1Logo');
 
 myImage.addEventListener('mouseover', () => {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/F1logo_2018.png') {
-    myImage.setAttribute('src','images/F1logo_2018-2.png');
-  } else {
-    myImage.setAttribute('src','images/F1logo_2018.png');
-  }
+  myImage.setAttribute('src','images/F1logo_2018-2.png');
 })
 
 myImage.addEventListener('mouseleave', () => {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/F1logo_2018.png') {
-    myImage.setAttribute('src','images/F1logo_2018-2.png');
-  } else {
-    myImage.setAttribute('src','images/F1logo_2018.png');
-  }
+  myImage.setAttribute('src','images/F1logo_2018.png');
 })
 
 // **** Change user name **** => Disabled
