@@ -134,6 +134,12 @@ tfoot {
 
 form {
     width: fit-content;
+    padding-left: 20px;
+}
+
+fieldset > p {
+    padding: 0px;
+    margin: 0px;
 }
 
 .helmet {
