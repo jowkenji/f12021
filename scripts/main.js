@@ -44,7 +44,7 @@ let pontosFavFinal = document.querySelector('#pontosFavorecidos');
 let pontosPerdFinal = document.querySelector('#pontosPerdidos');
 let pontosUserFinal = document.querySelector('#pontosUserFinal');
 let listaPontos = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
-let listaPontosFavorecidos = [7, 18, 0, 0, 0,  0, 0, 0, 0, 25, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+let listaPontosFavorecidos = [7, 18, 0, 0, 0,  3, 0, 0, 0, 18, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let listaPontosPerdidos    = [0,  7, 0, 0, 4, 18, 0, 0, 0,  0,  7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let listaCorridas = [
   'bahrain',

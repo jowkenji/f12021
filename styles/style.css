@@ -87,11 +87,17 @@ figcaption {
     justify-content: space-around;
 }
 
+.table {
+    display: flex;
+    justify-content: space-around;
+}
+
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    right: 150px;
 }
   
 td, th {
@@ -137,6 +143,11 @@ form {
     padding-left: 20px;
 }
 
+aside form {
+    width: fit-content;
+    padding-left: 0px;
+}
+
 fieldset > p {
     padding: 0px;
     margin: 0px;
@@ -148,6 +159,6 @@ fieldset > p {
 }
 
 #helmetIcon {
-    width: 64px;
-    
+    width: 64px;   
 }
+
