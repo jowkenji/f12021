@@ -43,6 +43,8 @@ let resultadoFinal = document.querySelector('#resultadoFinal');
 let pontosFavFinal = document.querySelector('#pontosFavorecidos');
 let pontosPerdFinal = document.querySelector('#pontosPerdidos');
 let pontosUserFinal = document.querySelector('#pontosUserFinal');
+let contaLambanca = document.querySelector('#contaLambanca');
+let contaSorte = document.querySelector('#contaSorte');
 let listaPontos = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
 let listaPontosFavorecidos = [7, 18, 0, 0, 0,  3, 0, 0, 0, 18, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let listaPontosPerdidos    = [0,  7, 0, 0, 4, 18, 0, 0, 0,  0,  7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -79,6 +81,15 @@ function somaArray(myArray, somatoria) {
   return somatoria;
 }
 
+function contaArray(myArray, contador) {
+  for (item of myArray) {
+    if(item !== 0) {
+      contador += 1;
+    }
+  }
+  return contador;
+}
+
 let somaPontosFav = 0;
 somaPontosFav = somaArray(listaPontosFavorecidos, somaPontosFav);
 pontosFavFinal.textContent = somaPontosFav;
@@ -91,8 +102,17 @@ let somatoria = 0;
 somatoria = somaPontosFav+somaPontosPerd;
 resultadoFinal.textContent = somatoria;
 
+let contadorSorte = 1; // contagem inicial = 1, teve uma sorte dupla na Hungria.
+contadorSorte = contaArray(listaPontosFavorecidos, contadorSorte);
+contaSorte.textContent = contadorSorte;
 
-// Pontuação do usuário **** quebrando a cabeça ainda ****
+let contadorLambanca = 1; // contagem inicial = 1, teve uma lambança sem mudança de pontos em SP.
+contadorLambanca = contaArray(listaPontosPerdidos, contadorLambanca);
+contaLambanca.textContent = contadorLambanca;
+
+
+
+// Pontuação do usuário **** quebrando a cabeça ainda para evitar toda esta repetição ****
 // *** organizando os votos do usuário ***
 let listaUserChoice = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 

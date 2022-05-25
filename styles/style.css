@@ -143,6 +143,12 @@ form {
     padding-left: 20px;
 }
 
+fieldset label {
+    width: 170px;
+    float: left;
+    text-align: right;
+}
+
 aside form {
     width: fit-content;
     padding-left: 0px;
@@ -162,3 +168,7 @@ fieldset > p {
     width: 64px;   
 }
 
+#btnlogin, #btncreate {
+    position: relative;
+    left: 170px;
+}
