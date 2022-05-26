@@ -13,6 +13,11 @@
     <title>This is my test page</title>
   </head>
   <body>
+    <header>
+      <br>
+      <img src="images/F1logo_2018.png" alt="F1 logo" id="f1Logo">
+      <h2 id="subtitle">F1'2021: What are the odds?</h2>
+    </header>
     <nav class="positioned">
         <a href="index.html#home">Home</a>
         <a href="https://www.formula1.com/" target="_blank">F1 Official Website</a>
@@ -22,8 +27,8 @@
     </nav>
 
     <h2>Member's club</h2>
-
-    <form class="login">
+    <main class="loginmain">
+      <form class="login">
       <fieldset>
         <legend>Log in</legend>
         <p>
@@ -39,11 +44,13 @@
         </p>    
 
       </fieldset>
+      </form>
         <p>
           <label for="button">Don't you have an account? Create now!</label>
         </p>
 
-    <fieldset>
+      <form class="register"> 
+      <fieldset>
         <legend>Create an account</legend>
         <p>
           <label for="username">Username / Login: </label>
@@ -117,5 +124,7 @@
         </p>
       </fieldset>
     </form>
-    <script src="scripts/login.js" defer></script>
+
+    </main>
+        <script src="scripts/login.js" defer></script>
   </body>
