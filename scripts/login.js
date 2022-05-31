@@ -21,3 +21,28 @@ helmetColor.addEventListener('input', () => {
   helmetIcon.style.background = helmetColor.value;    
 });
 
+// Resize fonts and hide aside content due window width
+let windowsWidth = window.innerWidth;
+let nav = document.querySelector('nav');
+let paraUL = document.querySelector('main');
+let aside = document.querySelector('aside'); // DOC manipulation with append/removeChild?
+
+if(windowsWidth < 700) {
+  nav.style.fontSize = '0.7em';
+  paraUL.style.fontSize = '12px';
+} else {
+  nav.style.fontSize = '1.0em';
+  paraUL.style.fontSize = '16px';
+};
+
+window.addEventListener('resize', () => {
+  windowsWidth = window.innerWidth;
+  if(windowsWidth < 700) {
+    nav.style.fontSize = '0.7em';
+    paraUL.style.fontSize = '12px';
+  } else {
+    nav.style.fontSize = '1.0em';
+    paraUL.style.fontSize = '16px';
+  }
+  
+});
