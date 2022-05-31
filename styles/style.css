@@ -31,6 +31,7 @@ nav {
 
 nav > a {
     color: white;
+    padding: 2px;
 }
 
 /* unused
@@ -51,7 +52,7 @@ h2 {
 p, ul, time {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 16px;
+    
     line-height: 2;
     letter-spacing: 0px;
 }
@@ -64,6 +65,7 @@ img {
     display: block;
     margin: 0 auto;
     width: 500px;
+    max-width: 80%;
 }
 
 aside {
