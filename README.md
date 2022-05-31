@@ -11,7 +11,7 @@
   <li> One subject only (F1 season 2021); Done ✔️</li>
   <li> Nav position and internal links; Done ✔️</li>
   <li> Nav and aside menu layout; still not the best but better; Done ✔️</li>
-  <li> Responsive layout (<strike>font-size, nav, body, images, forms, mobile</strike>✔️);⚠️ It would be better to hide aside when the windows width is less than 700px; the svg needs adjustments;</li>
+  <li> Responsive layout (<strike>font-size, nav, body, images, forms, mobile</strike>✔️);⚠️ It would be better to hide aside when the windows width is less than 700px; the svg needs adjustments; rethink nav for mobile</li>
   <li> Member's area, user login and create account; Done ✔️</li>
   <li> JavaScript interaction:</li>
   <ul>
