@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  
-<head>
-  <link rel="icon" href="https://img.icons8.com/color/48/000000/car-racing.png">
-  <link href="styles/style.css" rel="stylesheet">
+  <head>
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/car-racing.png">
+    <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta lang="en-US">
-    <meta name="viewport" content="width=device-width; user-scalable=yes">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <meta name="author" content="Jhonny Goya">
     <meta name="description" content="This page is used to put in practice all the new features that I learn. It doesn't have to make any sense."> <!--isso aparece na busca-->
     <title>This is my test page</title>
   </head>
-
   <body id="home">
-    <!--Isso aqui é um comentário-->
     <header>
-      <!-- 
-      For a better layout, let's forget this Welcome message for a while... 
-      <h1>Welcome</h1>
-      <button class="user-change">Change user</button> 
-      -->
-      <br>
       <img src="images/F1logo_2018.png" alt="F1 logo" id="f1Logo">
       <h2 id="subtitle">F1'2021: What are the odds?</h2>
     </header>
-    
     <nav class="positioned">
-      <a href="index.html#home">Home</a>
-      <a href="https://www.formula1.com/" target="_blank">F1 Official Website</a>
-      <a href="login.html">Member's club (new!)</a>
-      <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/" target="_blank">References</a>
-      <a href="index.html#contact">Contact</a>
+      <div class="navShort">
+        <a href="index.html#home">
+          <img src="./images/icons8-home-144.png" alt="home icon" class="navShort homeIcon">
+        </a>
+        <p class="navShort">Menu</p>
+      </div>
+      <a href="index.html#home" class="navLong">Home</a>
+      <a href="https://www.formula1.com/" target="_blank" class="navLong">F1 Official Website</a>
+      <a href="login.html" class="navLong">Member's club (new!)</a>
+      <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/" target="_blank" class="navLong">References</a>
+      <a href="https://github.com/jowkenji" target="_blank" class="navLong">More work</a>
     </nav>
-
-    
     <main>
       <aside>
         Related Links:
@@ -50,329 +44,365 @@
           </li>-->
         </ul>
       </aside>
-
       <article>
-        <p>by Jhonny Goya </p><time datetime="2022-01-04">4 de Janeiro de 2022</time>
-        <p>Hello there! This is a personal review, of this expetacular season. It also, my <strong>test page as 
-          I am learning web development</strong>. So I'm not going to hide that I was cheering for Max, but I'm really annoyed that Lewis' fans don't see the mistakes 
-          during the season. Don't take it too serious, and maybe you'll agree with me (👍 or not 👎) on the reasons that I believe that:</p>
-        <p><strong>Mercedes and Hamilton lost the championship by themselves in the first place.</strong></p>
-        <p>So, for a real <strong>professional</strong> 
-          view, I really recomend you to visit <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/">Mark Hughes' article</a>. 
-          I didn't inspired my article on his opinion. I found it while I was searching for some images. And ofcourse, I found really cool the idea to count by my own how 
-          many points Mercedes and Hamilton has thrown away.</p>
-
-        <span lang="pt-BR">
-        <p>Oops! From now on it will be in portuguese-BR to accelerate the site development.</p>
-        <br>
-        <img src="images/disputa.jpg" alt="disputa pegando fogo">
-
-        <ul>
+        <section class="intro">
+          <p>by Jhonny Goya </p><time datetime="2022-01-04">4 de Janeiro de 2022</time>
+          <p>
+            Hello there! This is a personal review, of this expetacular season. It also, my <strong>test page as 
+            I am learning web development</strong>. So I'm not going to hide that I was cheering for Max, but I'm really annoyed that Lewis' fans don't see the mistakes 
+            during the season. Don't take it too serious, and maybe you'll agree with me (👍 or not 👎) on the reasons that I believe that:
+          </p>
+          <p><strong>Mercedes and Hamilton lost the championship by themselves in the first place.</strong></p>
+          <p>
+            So, for a real <strong>professional</strong> 
+            view, I really recomend you to visit <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/">Mark Hughes' article</a>. 
+            I didn't inspired my article on his opinion. I found it while I was searching for some images. And ofcourse, I found really cool the idea to count by my own how 
+            many points Mercedes and Hamilton has thrown away.
+          </p>
+          <span lang="pt-BR">
+          <p>Oops! From now on it will be in portuguese-BR to accelerate the site development.</p>
+          <br>
+          <img src="images/disputa.jpg" alt="Lewis Hamilton e Max Verstapen em uma disputa pegando fogo">
+        </section>
+        <section>
           <p id="bahrain"><strong><a href="https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_do_Bar%C3%A9m" title="Wiki - GP Bahrain" target="_blank">
             Grande Prêmio do Bahrain</a></strong></p>
-            <p>Primeiro GP do ano e já a primeira surpresa, Max faz a pole incontestável e sai na frente. Com a estratégia diferente de pneus, Hamilton faz o undercut 
-              e lidera a segunda metade da corrida, mas Max tem a chance de ultrapassar Hamilton nas voltas finais, e o fez. Mas na mesma volta a RedBull manda Max 
-              devolver a posição por possivel punição. Contrariado, Max devolve e por <strong>sorte</strong> devido ao desgaste dos pneus não consegue repetir a ultrapassagem. 
-              <br> O curioso é que Hamilton reclama imediatamente por Max ter excedido os limites da pista, mas o mesmo o fez algumas vezes durante a corrida. 
-              Foi um bom começo pra RedBull com uma pequena frustração, e um grande alívio para a Mercedes.</p>
-            <figure>
-              <a href="https://youtu.be/4WGoYtYJXFw" target="_blank">
-                <img src="images/Screenshot 2022-04-23 at 16-06-05 Hamilton And Verstappen's Desert Duel 2021 Bahrain Grand Prix.png" alt="Bahrain Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="bahrainV">
-              <input type="text" disabled value="Sorte: 1 / Lambança: 0" class="disabled"> Do you agree with me?
-              <input type="radio" id="bahrain1" name="bahrainVote" value="1"><label for="bahrain1">👍</label> 
-              <input type="radio" id="bahrain0" name="bahrainVote" value="0"><label for="bahrain0">👎</label>
-            </form>
+          <p>
+            Primeiro GP do ano e já a primeira surpresa, Max faz a pole incontestável e sai na frente. Com a estratégia diferente de pneus, Hamilton faz o undercut 
+            e lidera a segunda metade da corrida, mas Max tem a chance de ultrapassar Hamilton nas voltas finais, e o fez. Mas na mesma volta a RedBull manda Max 
+            devolver a posição por possivel punição. Contrariado, Max devolve e por <strong>sorte</strong> devido ao desgaste dos pneus não consegue repetir a ultrapassagem. 
+            <br> O curioso é que Hamilton reclama imediatamente por Max ter excedido os limites da pista, mas o mesmo o fez algumas vezes durante a corrida. 
+            Foi um bom começo pra RedBull com uma pequena frustração, e um grande alívio para a Mercedes.
+          </p>
+          <figure>
+            <a href="https://youtu.be/4WGoYtYJXFw" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-06-05 Hamilton And Verstappen's Desert Duel 2021 Bahrain Grand Prix.png" alt="Bahrain Race Highlights">
+            <figcaption>Watch on YouTube</figcaption></a>
+          </figure>
+          <form class="bahrainV">
+            <input type="text" disabled value="Sorte: 1 / Lambança: 0" class="disabled"> Do you agree with me?
+            <input type="radio" id="bahrain1" name="bahrainVote" value="1"><label for="bahrain1">👍</label> 
+            <input type="radio" id="bahrain0" name="bahrainVote" value="0"><label for="bahrain0">👎</label>
+          </form>
         
           <p id="emilia-romana"><strong>Grande Prêmio da Emília-Romana</strong></p>
-            <p>Depois do aquecimento no Bahrein, Hamilton crava a pole como quem diz: <q> Excuse me, aqui é o patrão.</q> Mas com pista molhada, perde a liderança para 
-              Max logo na primeira curva, numa manobra bem agressiva eu diria, que poderia ter causado algum dano aos carros se Lewis não segurasse o carro. Max abriu 
-              vantagem, e Hamilton correndo atrás do prejuízo, faz <strong>lambança</strong> sozinho ao tentar ultrapassar retardatários. Saiu da pista, ficou atolado, quebrou 
-              a asa dianteira, teve que dar ré na brita, perdeu uma infinidade de posições. <br> Mas a <strong>sorte</strong> de 7x-campeão ajudou, na mesma volta Russel 
-              bate em Bottas, safety-car + red flag, reduzindo muito o prejuízo, pois não teve que fazer uma parada a mais com carros na pista garantindo 8<sup>a</sup> 
-              posição. Poderia ter sido muito pior.</p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=dMv5PaQ1fwo" target="_blank">
-              <img src="images/Screenshot 2022-04-23 at 16-06-13 Lewis Hamilton Slides Off At Imola 2021 Emilia Romagna Grand Prix.png" alt="Emilia Romana Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="emiliaRomanaV">
-              <input type="text" disabled value="Sorte: 2 / Lambança: 1" class="disabled"> Do you agree with me? 
-              <input type="radio" id="emiliaRomanaYes" name="emiliaRomanaVote" value="1"><label for="emiliaRomanaYes">👍</label> 
-              <input type="radio" id="emiliaRomanaNo" name="emiliaRomanaVote" value="0"><label for="emiliaRomanaNo">👎</label>
-            </form>
+          <p>
+            Depois do aquecimento no Bahrein, Hamilton crava a pole como quem diz: <q> Excuse me, aqui é o patrão.</q> Mas com pista molhada, perde a liderança para 
+            Max logo na primeira curva, numa manobra bem agressiva eu diria, que poderia ter causado algum dano aos carros se Lewis não segurasse o carro. Max abriu 
+            vantagem, e Hamilton correndo atrás do prejuízo, faz <strong>lambança</strong> sozinho ao tentar ultrapassar retardatários. Saiu da pista, ficou atolado, quebrou 
+            a asa dianteira, teve que dar ré na brita, perdeu uma infinidade de posições. <br> Mas a <strong>sorte</strong> de 7x-campeão ajudou, na mesma volta Russel 
+            bate em Bottas, safety-car + red flag, reduzindo muito o prejuízo, pois não teve que fazer uma parada a mais com carros na pista garantindo 8<sup>a</sup> 
+            posição. Poderia ter sido muito pior.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=dMv5PaQ1fwo" target="_blank">
+            <img src="images/Screenshot 2022-04-23 at 16-06-13 Lewis Hamilton Slides Off At Imola 2021 Emilia Romagna Grand Prix.png" alt="Emilia Romana Race Highlights">
+            <figcaption>Watch on YouTube</figcaption></a>
+          </figure>
+          <form class="emiliaRomanaV">
+            <input type="text" disabled value="Sorte: 2 / Lambança: 1" class="disabled"> Do you agree with me? 
+            <input type="radio" id="emiliaRomanaYes" name="emiliaRomanaVote" value="1"><label for="emiliaRomanaYes">👍</label> 
+            <input type="radio" id="emiliaRomanaNo" name="emiliaRomanaVote" value="0"><label for="emiliaRomanaNo">👎</label>
+          </form>
 
           <p id="portugal"><strong>Grande Prêmio de Portugal</strong></p>
-            <p>Domínio da Mercedes, Max até tenta ponto extra mas excede os limites de pista e tem volta deletada (olha os limites de novo aí). Sorte ou erro 
-              de Max? Não contarei pontos aqui.</p>
-            <form class="portugalV">
-              <input type="text" disabled value="Sorte: 2 / Lambança: 1"> Do you agree with me? 
-              <input type="radio" id="portugalYes" name="portugalVote" value="1"><label for="portugalYes">👍</label> 
-              <input type="radio" id="portugalNo" name="portugalVote" value="0"><label for="portugalNo">👎</label>
-            </form>
+          <p>
+            Domínio da Mercedes, Max até tenta ponto extra mas excede os limites de pista e tem volta deletada (olha os limites de novo aí). Sorte ou erro 
+            de Max? Não contarei pontos aqui.
+          </p>
+          <form class="portugalV">
+            <input type="text" disabled value="Sorte: 2 / Lambança: 1"> Do you agree with me? 
+            <input type="radio" id="portugalYes" name="portugalVote" value="1"><label for="portugalYes">👍</label> 
+            <input type="radio" id="portugalNo" name="portugalVote" value="0"><label for="portugalNo">👎</label>
+          </form>
         
           <p id="espanha"><strong>Grande Prêmio da Espanha</strong></p>
-            <p>Novamente domínio da Mercedes, mas agora começam a reclamar da asa da Redbull que é flexivel demais. Mas a asa dianteira da Mercedes também... aí?</p>
-            <form class="espanhaV">
-              <input type="text" disabled value="Sorte: 2 / Lambança: 1"> Do you agree with me? 
-              <input type="radio" id="espanhaYes" name="espanhaVote" value="1"><label for="espanhaYes">👍</label> 
-              <input type="radio" id="espanhaNo" name="espanhaVote" value="0"><label for="espanhaNo">👎</label>
-            </form>
+          <p>Novamente domínio da Mercedes, mas agora começam a reclamar da asa da Redbull que é flexivel demais. Mas a asa dianteira da Mercedes também... aí?</p>
+          <form class="espanhaV">
+            <input type="text" disabled value="Sorte: 2 / Lambança: 1"> Do you agree with me? 
+            <input type="radio" id="espanhaYes" name="espanhaVote" value="1"><label for="espanhaYes">👍</label> 
+            <input type="radio" id="espanhaNo" name="espanhaVote" value="0"><label for="espanhaNo">👎</label>
+          </form>
 
           <p id="monaco"><strong>Grande Prêmio de Monaco</strong></p>
-            <p>Fim de semana fraquíssimo da Mercedes. Hamilton, ficou onde largou. Dá pra contar algo? Sim, <strong>lambança</strong> da equipe que errou no <em>timing</em> 
-              da troca dos pneus, perdendo a chance de ultrapassar Gasly e de quebra espanando o parafuso do Bottas.</p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=UUyUA91ILsE" target="_blank">
-                <img src="images/Screenshot 2022-04-23 at 16-06-23 Mercedes' Sunday To Forget 2021 Monaco Grand Prix.png" alt="Monaco Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="monacoV">
-              <input type="text" disabled value="Sorte: 2 / Lambança: 2"> Do you agree with me? 
-              <input type="radio" id="monacoYes" name="monacoVote" value="1"><label for="monacoYes">👍</label> 
-              <input type="radio" id="monacoNo" name="monacoVote" value="0"><label for="monacoNo">👎</label>
-            </form>
+          <p>
+            Fim de semana fraquíssimo da Mercedes. Hamilton, ficou onde largou. Dá pra contar algo? Sim, <strong>lambança</strong> da equipe que errou no <em>timing</em> 
+            da troca dos pneus, perdendo a chance de ultrapassar Gasly e de quebra espanando o parafuso do Bottas.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=UUyUA91ILsE" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-06-23 Mercedes' Sunday To Forget 2021 Monaco Grand Prix.png" alt="Monaco Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="monacoV">
+            <input type="text" disabled value="Sorte: 2 / Lambança: 2"> Do you agree with me? 
+            <input type="radio" id="monacoYes" name="monacoVote" value="1"><label for="monacoYes">👍</label> 
+            <input type="radio" id="monacoNo" name="monacoVote" value="0"><label for="monacoNo">👎</label>
+          </form>
 
           <p id="azerbaijao"><strong>Grande Prêmio do Azerbaijão</strong></p>
-            <p>Essa talvez seja a maior <strong>lambança</strong> do campeonato. Primeiro a <strong>sorte</strong> de ter Verstappen fora. E na sequencia, perdendo no 
-              mínimo 18 pontos de graça... Magic button</p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=yD5ndKSjvFc" target="_blank">
+          <p>
+            Essa talvez seja a maior <strong>lambança</strong> do campeonato. Primeiro a <strong>sorte</strong> de ter Verstappen fora. E na sequencia, perdendo no 
+            mínimo 18 pontos de graça... Magic button
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=yD5ndKSjvFc" target="_blank">
               <img src="images/Screenshot 2022-04-23 at 16-05-10 RADIO REWIND! 2021 Azerbaijan Grand Prix.png" alt="Azerbaijao Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="azerbaijaoV">
-              <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
-              <input type="radio" id="azerbaijaoYes" name="azerbaijaoVote" value="1"><label for="azerbaijaoYes">👍</label> 
-              <input type="radio" id="azerbaijaoNo" name="azerbaijaoVote" value="0"><label for="azerbaijaoNo">👎</label>
-            </form>
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="azerbaijaoV">
+            <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
+            <input type="radio" id="azerbaijaoYes" name="azerbaijaoVote" value="1"><label for="azerbaijaoYes">👍</label> 
+            <input type="radio" id="azerbaijaoNo" name="azerbaijaoVote" value="0"><label for="azerbaijaoNo">👎</label>
+          </form>
 
           <p id="frança"><strong>Grande Prêmio da França</strong></p>
-            <p>Aqui só digo uma coisa, companheiro, ajuda aí né?</p>
-            <form class="françaV">
-              <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
-              <input type="radio" id="françaYes" name="françaVote" value="1"><label for="françaYes">👍</label> 
-              <input type="radio" id="françaNo" name="françaVote" value="0"><label for="françaNo">👎</label>
-            </form>
+          <p>Aqui só digo uma coisa, companheiro, ajuda aí né?</p>
+          <form class="françaV">
+            <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
+            <input type="radio" id="françaYes" name="françaVote" value="1"><label for="françaYes">👍</label> 
+            <input type="radio" id="françaNo" name="françaVote" value="0"><label for="françaNo">👎</label>
+          </form>
+          
           <p id="estiria"><strong>Grande Prêmio da Estiria</strong></p>
-            <p>Festa Laranja: Dominio absoluto da Redbull!</p>
-            <form class="estiriaV">
-              <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
-              <input type="radio" id="estiriaYes" name="estiriaVote" value="1"><label for="estiriaYes">👍</label> 
-              <input type="radio" id="estiriaNo" name="estiriaVote" value="0"><label for="estiriaNo">👎</label>
-            </form>
+          <p>Festa Laranja: Dominio absoluto da Redbull!</p>
+          <form class="estiriaV">
+            <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
+            <input type="radio" id="estiriaYes" name="estiriaVote" value="1"><label for="estiriaYes">👍</label> 
+            <input type="radio" id="estiriaNo" name="estiriaVote" value="0"><label for="estiriaNo">👎</label>
+          </form>
 
           <p id="austria"><strong>Grande Prêmio da Áustria</strong></p>
-            <p>Festa Laranja: Dominio absoluto da Redbull!</p>
-            <form class="austriaV">
-              <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
-              <input type="radio" id="austriaYes" name="austriaVote" value="1"><label for="austriaYes">👍</label> 
-              <input type="radio" id="austriaNo" name="austriaVote" value="0"><label for="austriaNo">👎</label>
-            </form>
+          <p>Festa Laranja: Dominio absoluto da Redbull!</p>
+          <form class="austriaV">
+            <input type="text" disabled value="Sorte: 3 / Lambança: 3"> Do you agree with me? 
+            <input type="radio" id="austriaYes" name="austriaVote" value="1"><label for="austriaYes">👍</label> 
+            <input type="radio" id="austriaNo" name="austriaVote" value="0"><label for="austriaNo">👎</label>
+          </form>
 
           <p id="gra-betanha"><strong>Grande Prêmio da Grã-Betanha</strong></p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=oIKel6jVD3Q" target="_blank">
-                <img src="images/Screenshot 2022-04-23 at 16-08-19 Verstappen & Hamilton Collide At Silverstone 2021 British Grand Prix.png" alt="Great Britain Race Highlights">
-                <img src="images/gp_gb.jpg" class="gp_gb" alt="GP Grã-Betanha">
-                <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <p>Polemica: Max muito agressivo, ou Hamilton procurando um gap? Na duvida colocarei como erro de Max, sendo que ele não repetiu mais o mesmo erro. <strong>Sorte</strong> 
-              então pra Mercedes. Pois Max não pontuou e poderia ter chegado em 2o sem problemas.</p>
-            <blockquote cite="http://blog.tribunadonorte.com.br/alexmedeiros/2021/07/30/clima-quente-na-formula-um/"> 
-              <p>Na mídia:<i> "Depois do holandês fazer umas queimações no rival, por causa da última corrida, onde ele saiu da pista numa disputa com o inglês, o pessoal 
-                da Mercedes não economizou críticas e, para incendiar mais o clima, o próprio Hamilton disse que se tiver outra situação igual “faria a mesma coisa” que 
-                fez em Silverstone. A imprensa que cobre os treinos já insinua o início de uma tremenda guerra.</i></p></blockquote>
-            <form class="graBetanhaV">
-              <input type="text" disabled value="Sorte: 4 / Lambança: 3"> Do you agree with me? 
-              <input type="radio" id="graBetanhaYes" name="graBetanhaVote" value="1"><label for="graBetanhaYes">👍</label> 
-              <input type="radio" id="graBetanhaNo" name="graBetanhaVote" value="0"><label for="graBetanhaNo">👎</label>  
-            </form>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=oIKel6jVD3Q" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-08-19 Verstappen & Hamilton Collide At Silverstone 2021 British Grand Prix.png" alt="Great Britain Race Highlights">
+              <img src="images/gp_gb.jpg" class="gp_gb" alt="GP Grã-Betanha">
+              <figcaption>Watch on YouTube</figcaption></a>
+          </figure>
+          <p>
+            Polemica: Max muito agressivo, ou Hamilton procurando um gap? Na dúvida colocarei como erro de Max, sendo que ele não repetiu mais o mesmo erro
+            (deixar o lado de dentro da curva aberto). <strong>Sorte</strong> então pra Mercedes. Pois Max não pontuou e poderia ter chegado em 2o sem problemas. 
+            E os comentários na mídia:
+          </p>
+          <blockquote cite="http://blog.tribunadonorte.com.br/alexmedeiros/2021/07/30/clima-quente-na-formula-um/">
+            <em>
+              Depois do holandês fazer umas queimações no rival, por causa da última corrida, onde ele saiu da pista numa disputa com o inglês, o pessoal 
+              da Mercedes não economizou críticas e, para incendiar mais o clima, o próprio Hamilton disse que se tiver outra situação igual “faria a mesma coisa” que 
+              fez em Silverstone. A imprensa que cobre os treinos já insinua o início de uma tremenda guerra.
+            </em>
+          </blockquote>
+          <form class="graBetanhaV">
+            <input type="text" disabled value="Sorte: 4 / Lambança: 3"> Do you agree with me? 
+            <input type="radio" id="graBetanhaYes" name="graBetanhaVote" value="1"><label for="graBetanhaYes">👍</label> 
+            <input type="radio" id="graBetanhaNo" name="graBetanhaVote" value="0"><label for="graBetanhaNo">👎</label>  
+          </form>
 
           <p id="hungria"><strong>Grande Prêmio da Hungria</strong></p>
-            <p>Sabe aquela ajudinha lá? "Podedexá, entendido". Aqui não vou deixar de protestar que foi muita mas muuuuita <strong>sorte</strong>: Pra não dizer que foi roubado. Strike 
-              pegando 2 Redbull, mais o menino Norris que vem brilhando. Foi melhor que encomenda. Mas a Mercedes tb protagonizou o que foi uma largada épica de 1 carro 
-              no grid. <strong>Lambança!</strong> Custou a liderança. E por <strong>sorte (2x)</strong> Seb foi desclassificado pós-corrida (quais as chances de isso acontecer?). 
-              Preste atenção: <strong>Sorte</strong> dupla com <strong>lambança</strong> épica.</p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=8DuTjXo67ac" target="_blank">
-                <img src="images/Screenshot 2022-04-23 at 16-09-20 Championship Changing Melee at Turn 1 in Hungary 2021 Hungarian Grand Prix.png" alt="Hungarian Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="hungriaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="hungriaYes" name="hungriaVote" value="1"><label for="hungriaYes">👍</label> 
-              <input type="radio" id="hungriaNo" name="hungriaVote" value="0"><label for="hungriaNo">👎</label>
-            </form>
+          <p>
+            Sabe aquela ajudinha lá? "Podedexá, entendido". Aqui não vou deixar de protestar que foi muita mas muuuuita <strong>sorte</strong>: Pra não dizer que foi roubado. Strike 
+            pegando 2 Redbull, mais o menino Norris que vem brilhando. Foi melhor que encomenda. Mas a Mercedes tb protagonizou o que foi uma largada épica de 1 carro 
+            no grid. <strong>Lambança!</strong> Custou a liderança. E por <strong>sorte (2x)</strong> Seb foi desclassificado pós-corrida (quais as chances de isso acontecer?). 
+            Preste atenção: <strong>Sorte</strong> dupla com <strong>lambança</strong> épica.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=8DuTjXo67ac" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-09-20 Championship Changing Melee at Turn 1 in Hungary 2021 Hungarian Grand Prix.png" alt="Hungarian Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="hungriaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="hungriaYes" name="hungriaVote" value="1"><label for="hungriaYes">👍</label> 
+            <input type="radio" id="hungriaNo" name="hungriaVote" value="0"><label for="hungriaNo">👎</label>
+          </form>
 
           <p id="belgica"><strong>Grande Prêmio da Bélgica</strong></p>
-            <p>Outro GP molhado, não teve corrida. Então deram, metade dos pontos. 3o lugar seria sorte ou azar? Deixemos como está.</p>
-            <hr>
-              <dl>
-                <dt>Michael Masi</dt>
-                  <dd>Diretor de prova. Esse cara ganha os holofotes a partir desta corrida. Antes como um cara sendo muito mão leve, indeciso, depois com conduta duvidosa. 
-                    Os audios entre equipes e eles acabam se tornando mais relevante, pois a briga começa a sair dos limites da pista e chega a um nivel político.</dd>
-              </dl>
-            <hr>
-            <form class="belgicaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="belgicaYes" name="belgicaVote" value="1"><label for="belgicaYes">👍</label> 
-              <input type="radio" id="belgicaNo" name="belgicaVote" value="0"><label for="belgicaNo">👎</label>
-            </form>
+          <p>Outro GP molhado, não teve corrida. Então deram, metade dos pontos. 3o lugar seria sorte ou azar? Deixemos como está.</p>
+          <p class="observacao">Michael Masi<br>
+            Diretor de prova. Esse cara ganha os holofotes a partir desta corrida. Antes como um cara sendo muito mão leve, indeciso, depois com conduta duvidosa. 
+            Os audios entre equipes e eles acabam se tornando mais relevante, pois a briga começa a sair dos limites da pista e chega a um nivel político.
+          </p>
+          <form class="belgicaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="belgicaYes" name="belgicaVote" value="1"><label for="belgicaYes">👍</label> 
+            <input type="radio" id="belgicaNo" name="belgicaVote" value="0"><label for="belgicaNo">👎</label>
+          </form>
 
           <p id="paises-baixos"><strong>Grande Prêmio dos Países Baixos</strong></p>
-            <p>Casa de Max, não deu outra.</p>
-            <form class="paisesBaixosV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="paisesBaixosYes" name="paisesBaixosVote" value="1"><label for="paisesBaixosYes">👍</label> 
-              <input type="radio" id="paisesBaixosNo" name="paisesBaixosVote" value="0"><label for="paisesBaixosNo">👎</label>
-            </form>
+          <p>Casa de Max, não deu outra.</p>
+          <form class="paisesBaixosV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="paisesBaixosYes" name="paisesBaixosVote" value="1"><label for="paisesBaixosYes">👍</label> 
+            <input type="radio" id="paisesBaixosNo" name="paisesBaixosVote" value="0"><label for="paisesBaixosNo">👎</label>
+          </form>
 
           <p id="italia"><strong>Grande Prêmio da Itália</strong></p>
-            <p>Lembra do que aconteceu até agora? Duas feras já estão babando. Ninguém arreda o pé pra ninguém. Pois é. Só foi dada a chance de acontecer o que 
-              <a href="index.html#gra-betanha">"faría a mesma coisa"</a>. Sorte da Mclaren!</p>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=4egdMwxAFl4" target="_blank">
+          <p>Lembra do que aconteceu até agora? Duas feras já estão babando. Ninguém arreda o pé pra ninguém. Pois é! Só foi dada a chance de acontecer o que 
+            <a href="index.html#gra-betanha">"faría a mesma coisa"</a>. Sorte da Mclaren!
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=4egdMwxAFl4" target="_blank">
               <img src="images/Screenshot 2022-04-23 at 16-09-13 Hamilton Verstappen Horner And Wolff On The Collision... 2021 Italian Grand Prix.png" alt="Italian Race Highlights">
-              <figcaption>Watch on YouTube</figcaption></a>
-            </figure>
-            <form class="italiaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="italiaYes" name="italiaVote" value="1"><label for="italiaYes">👍</label> 
-              <input type="radio" id="italiaNo" name="italiaVote" value="0"><label for="italiaNo">👎</label>
-            </form>
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="italiaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="italiaYes" name="italiaVote" value="1"><label for="italiaYes">👍</label> 
+            <input type="radio" id="italiaNo" name="italiaVote" value="0"><label for="italiaNo">👎</label>
+          </form>
 
           <p id="russia"><strong>Grande Prêmio da Rússia</strong></p>
-            <p>Aqui faremos uma pausa na briga pelo campeonato, pois Redbull troca o motor completo de Max então ele larga do fim do grid. Dava pra imaginar uma corrida 
-              sem emoção né? Pois é, mas a Maclaren vem numa ascendente e Lando Norris brilhou. Largando na pole, o menino ficou boa parte da corrida na frente, o que 
-              parecia ser a sua primeira vitoria até que a chuva nas ultimas voltas mudou tudo. Lewis seguiu a ordem da equipe e trocou os pneus para intermediário, 
-              tendo vantagem pra caçar Norris. Arriscou, verdade? Porque Max fez o mesmo, e sendo que o mais importante não era caçar o Norris, e sim garantir que Max 
-              não o ultrapasse! Mesmo ganhando a corrida, sendo uma das mais heartbreaking, o olho tava no gato, que chegou em segundo. Não contarei como sorte aqui não, 
-              porque era dever da Mercedes tá de olho no Max.</p>
-              <figure>
-                <a href="https://www.youtube.com/watch?v=wkyhWfloqFI" target="_blank">
-                  <img src="images/Screenshot 2022-04-23 at 16-09-08 Lando Norris’ Sochi Heartbreak 2021 Russian Grand Prix.png" alt="Russian Race Highlights">
-                  <figcaption>Watch on YouTube</figcaption></a>
-              </figure>
-            <form class="russiaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="russiaYes" name="russiaVote" value="1"><label for="russiaYes">👍</label> 
-              <input type="radio" id="russiaNo" name="russiaVote" value="0"><label for="russiaNo">👎</label>
-            </form>
+          <p>
+            Aqui faremos uma pausa na briga pelo campeonato, pois Redbull troca o motor completo de Max então ele larga do fim do grid. Dava pra imaginar uma corrida 
+            sem emoção né? Pois é, mas a Maclaren vem numa ascendente e Lando Norris brilhou. Largando na pole, o menino ficou boa parte da corrida na frente, o que 
+            parecia ser a sua primeira vitoria até que a chuva nas ultimas voltas mudou tudo. Lewis seguiu a ordem da equipe e trocou os pneus para intermediário, 
+            tendo vantagem pra caçar Norris. Arriscou, verdade? Porque Max fez o mesmo, e sendo que o mais importante não era caçar o Norris, e sim garantir que Max 
+            não o ultrapasse! Mesmo ganhando a corrida, sendo uma das mais heartbreaking, o olho tava no gato, que chegou em segundo. Não contarei como sorte aqui não, 
+            porque era dever da Mercedes tá de olho no Max.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=wkyhWfloqFI" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-09-08 Lando Norris’ Sochi Heartbreak 2021 Russian Grand Prix.png" alt="Russian Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="russiaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="russiaYes" name="russiaVote" value="1"><label for="russiaYes">👍</label> 
+            <input type="radio" id="russiaNo" name="russiaVote" value="0"><label for="russiaNo">👎</label>
+          </form>
 
           <p id="turquia"><strong>Grande Prêmio da Turquia</strong></p>
-            <p>Estatisticamente era pra dar Hamilton+Mercedes, mas deu Bottas, e as RedBull na sequencia. Não me lembro, preciso ver o 
-              <abbr title="Race Highlights">VT</abbr>. Não contarei pontos, mas curioso.</p>
-            <form class="turquiaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="turquiaYes" name="turquiaVote" value="1"><label for="turquiaYes">👍</label> 
-              <input type="radio" id="turquiaNo" name="turquiaVote" value="0"><label for="turquiaNo">👎</label>
-            </form>
+          <p>
+            Estatisticamente era pra dar Hamilton+Mercedes, mas deu Bottas, e as RedBull na sequencia. Não me lembro, preciso ver o 
+            <abbr title="Race Highlights">VT</abbr>. Não contarei pontos, mas curioso.
+          </p>
+          <form class="turquiaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="turquiaYes" name="turquiaVote" value="1"><label for="turquiaYes">👍</label> 
+            <input type="radio" id="turquiaNo" name="turquiaVote" value="0"><label for="turquiaNo">👎</label>
+          </form>
 
           <p id="eua"><strong>Grande Prêmio dos Estados Unidos</strong></p>
-            <p>Grande festa pra Hamilton e seus amigos celebridades... mas Verstapen jogou água no Chopp. Outra na contra-tendencia.</p>
-            <form class="euaV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="euaYes" name="euaVote" value="1"><label for="euaYes">👍</label> 
-              <input type="radio" id="euaNo" name="euaVote" value="0"><label for="euaNo">👎</label>
-            </form>
+          <p>Grande festa pra Hamilton e seus amigos celebridades... mas Verstapen jogou água no Chopp. Outra na contra-tendencia.</p>
+          <form class="euaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="euaYes" name="euaVote" value="1"><label for="euaYes">👍</label> 
+            <input type="radio" id="euaNo" name="euaVote" value="0"><label for="euaNo">👎</label>
+          </form>
 
           <p id="mexico"><strong>Grande Prêmio da Cidade do México</strong></p>
-            <p>Grande festa pra Checo! mas foi Verstapen quem levou, com Hamilton em segundo. A tequila foi garantida pelo podio de Checco.</p>
-            <form class="mexicoV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
-              <input type="radio" id="mexicoYes" name="mexicoVote" value="1"><label for="mexicoYes">👍</label> 
-              <input type="radio" id="mexicoNo" name="mexicoVote" value="0"><label for="mexicoNo">👎</label>
-            </form>
+          <p>Grande festa pra Checo! mas foi Verstapen quem levou, com Hamilton em segundo. A tequila foi garantida pelo podio de Checco.</p>
+          <form class="mexicoV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 4"> Do you agree with me? 
+            <input type="radio" id="mexicoYes" name="mexicoVote" value="1"><label for="mexicoYes">👍</label> 
+            <input type="radio" id="mexicoNo" name="mexicoVote" value="0"><label for="mexicoNo">👎</label>
+          </form>
 
           <p id="sao-paulo"><strong>Grande Prêmio de São Paulo</strong></p>
-            <p>Hamilton troca só o módulo de combustão e tem velocidade nas retas 15km/h a mais que o resto. Bom com puniçao de posições, largando em décimo não deu 
-              tempo pra escalar pra vitoria da Sprint Race, mesmo assim teve um excelente resultado se não fosse pela irregularidade na asa (mesmo não perdendo em pontos no final, 
-              mas foi uma <strong>lambança</strong>  clara da equipe... deixou o trabalho muito mais difícil). A desqualificação da Sprint, multa pra Max por ter tocado na asa traseira, 
-              papinho pra boi dormir da Mercedes alegando que Max poderia ter quebrado o mecanismo. 
-              <br>Bom, a Mercedes ficou doida, o Tio (Toto) tava on fire. Na corrida, com muito mais voltas, Hamilton foi escalando o pelotão até chegar em Max, que se você leu 
-              até aqui, não ia de jeito nenhum arredar o pé. Levou a disputa pra fora das pistas onde Hamilton começou a ficar assustado, mas fez a lição de casa e passou 
-              "lacrando", ou seja, não dando chance pra Max retomar a posição. Lewis entendeu, é só assim mesmo. Foi tão duro o final de semana pra Hamilton que sua comemoração 
-              foi digna de Senna'93 (sim, 93 com invasão de pista e não a de 91). Gostei da comemoração, acho que ele "devia" isso ao público, coisa que Max nunca faria, pelo menos 
-              não neste momento.</p>
-              <figure>
-                <a href="https://www.youtube.com/watch?v=uhrAgoHCoyo" target="_blank">
-                  <img src="images/Screenshot 2022-04-23 at 16-09-00 Verstappen And Hamilton Go Toe To Toe Again!! 2021 Brazilian Grand Prix.png" alt="Brazilian Race Highlights">
-                  <figcaption>Watch on YouTube</figcaption></a>
-              </figure>
-              <form class="saoPauloV">
-                <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
-                <input type="radio" id="saoPauloYes" name="saoPauloVote" value="1"><label for="saoPauloYes">👍</label> 
-                <input type="radio" id="saoPauloNo" name="saoPauloVote" value="0"><label for="saoPauloNo">👎</label>
-              </form>
+          <p>
+            Hamilton troca só o módulo de combustão e tem velocidade nas retas 15km/h a mais que o resto. Bom com puniçao de posições, largando em décimo não deu 
+            tempo pra escalar pra vitoria da Sprint Race, mesmo assim teve um excelente resultado se não fosse pela irregularidade na asa (mesmo não perdendo em pontos no final, 
+            mas foi uma <strong>lambança</strong>  clara da equipe... deixou o trabalho muito mais difícil). A desqualificação da Sprint, multa pra Max por ter tocado na asa traseira, 
+            papinho pra boi dormir da Mercedes alegando que Max poderia ter quebrado o mecanismo. 
+            <br>Bom, a Mercedes ficou doida, o Tio (Toto) tava on fire. Na corrida, com muito mais voltas, Hamilton foi escalando o pelotão até chegar em Max, que se você leu 
+            até aqui, não ia de jeito nenhum arredar o pé. Levou a disputa pra fora das pistas onde Hamilton começou a ficar assustado, mas fez a lição de casa e passou 
+            "lacrando", ou seja, não dando chance pra Max retomar a posição. Lewis entendeu, é só assim mesmo. Foi tão duro o final de semana pra Hamilton que sua comemoração 
+            foi digna de Senna'93 (sim, 93 com invasão de pista e não a de 91). Gostei da comemoração, acho que ele "devia" isso ao público, coisa que Max nunca faria, pelo menos 
+            não neste momento.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=uhrAgoHCoyo" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-09-00 Verstappen And Hamilton Go Toe To Toe Again!! 2021 Brazilian Grand Prix.png" alt="Brazilian Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="saoPauloV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
+            <input type="radio" id="saoPauloYes" name="saoPauloVote" value="1"><label for="saoPauloYes">👍</label> 
+            <input type="radio" id="saoPauloNo" name="saoPauloVote" value="0"><label for="saoPauloNo">👎</label>
+          </form>
 
           <p id="catar"><strong>Grande Prêmio do Catar</strong></p>
-            <p>Super motor de Hamilton continuou dominando. Sem surpresas.</p>
-            <form class="catarV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
-              <input type="radio" id="catarYes" name="catarVote" value="1"><label for="catarYes">👍</label> 
-              <input type="radio" id="catarNo" name="catarVote" value="0"><label for="catarNo">👎</label>
-            </form>
+          <p>Super motor de Hamilton continuou dominando. Sem surpresas.</p>
+          <form class="catarV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
+            <input type="radio" id="catarYes" name="catarVote" value="1"><label for="catarYes">👍</label> 
+            <input type="radio" id="catarNo" name="catarVote" value="0"><label for="catarNo">👎</label>
+          </form>
 
           <p id="arabia-saudita"><strong>Grande Prêmio da Arábia Saudita</strong></p>
-            <p>Pior circuito da temporada na minha opinião. Um minhocão estreito sem propósito que até atrapalha na filmagem do evento. Super motor de Hamilton continuou 
-              dominando. Mas com surpresas, com Max jogando tudo literalmente pra cima de Hamilton. Diversas punições para o holandês. Enfim, Bottas ajuda o companheiro, 
-              mas não na pista e sim segurando Max atrás durante o safety car. A malandragem se vira contra a propria Mercedes. Sorte da RedBull aqui com uma bandeira 
-              vermelha. 
-              Polemica alert! Teve toque dos dois com a estratégia pra pegar o DRS a favor. Foi sorte do Hamilton não ter quebrado o bico? Ou ele panguou mesmo atrás do Verstapen?
-              Ou melhor ainda, pego de surpresa num breaktest? Ora, pq Hamilton não ultrapassou direto? Ele tb queria o DRS? Então não dava pra ser pego de 'surpresa' com a mesma 
-              estratégia? Ou dá? É tipo driblar o golero mas não correr pra bola?
-              Mas nem isso impediu mais uma vitória do ingles. E o campeonato fica empatado em pontos, com Max tendo 1 vitória a mais de vantagem.</p>
-              <figure>
-                <a href="https://www.youtube.com/watch?v=QS4Z38HhsMc" target="_blank">
-                  <img src="images/Screenshot 2022-04-23 at 16-08-54 Lewis Hamilton And Max Verstappen Collide! 2021 Saudi Arabian Grand Prix.png" alt="Saudi Arabian Race Highlights">
-                  <figcaption>Watch on YouTube</figcaption></a>
-              </figure>
-              <form class="arabiaSauditaV">
-                <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
-                <input type="radio" id="arabiaSauditaYes" name="arabiaSauditaVote" value="1"><label for="arabiaSauditaYes">👍</label> 
-                <input type="radio" id="arabiaSauditaNo" name="arabiaSauditaVote" value="0"><label for="arabiaSauditaNo">👎</label>
-              </form>
+          <p>
+            Pior circuito da temporada na minha opinião. Um minhocão estreito sem propósito que até atrapalha na filmagem do evento. Super motor de Hamilton continuou 
+            dominando. Mas com surpresas, com Max jogando tudo literalmente pra cima de Hamilton. Diversas punições para o holandês. Enfim, Bottas ajuda o companheiro, 
+            mas não na pista e sim segurando Max atrás durante o safety car. A malandragem se vira contra a propria Mercedes. Sorte da RedBull aqui com uma bandeira 
+            vermelha. 
+            Polemica alert! Teve toque dos dois com a estratégia pra pegar o DRS a favor. Foi sorte do Hamilton não ter quebrado o bico? Ou ele panguou mesmo atrás do Verstapen?
+            Ou melhor ainda, pego de surpresa num breaktest? Ora, pq Hamilton não ultrapassou direto? Ele tb queria o DRS? Então não dava pra ser pego de 'surpresa' com a mesma 
+            estratégia? Ou dá? É tipo driblar o golero mas não correr pra bola?
+            Mas nem isso impediu mais uma vitória do ingles. E o campeonato fica empatado em pontos, com Max tendo 1 vitória a mais de vantagem.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=QS4Z38HhsMc" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-08-54 Lewis Hamilton And Max Verstappen Collide! 2021 Saudi Arabian Grand Prix.png" alt="Saudi Arabian Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="arabiaSauditaV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
+            <input type="radio" id="arabiaSauditaYes" name="arabiaSauditaVote" value="1"><label for="arabiaSauditaYes">👍</label> 
+            <input type="radio" id="arabiaSauditaNo" name="arabiaSauditaVote" value="0"><label for="arabiaSauditaNo">👎</label>
+          </form>
 
           <p id="abu-dhabi"><strong>Grande Prêmio de Abu Dhabi</strong></p>
-            <p>Última corrida do ano mega holofotes nessa disputa. E agora? Supermotor de Hamilton contra a agressividade de Verstapen. Houve uma disputa de posição 
-              logo na largada, Max mais uma vez força Lewis pra fora, que corta a chincane e não devolve a vantagem de distancia. Com os pneus macios se desgastando 
-              volta a volta a corrida vai ficando pra Hamilton, que nessa corrida foi impecavel. Nem Checco Perez segurando Hamilton pos 5,5s numa unica volta, 
-              foi épico, deu chance a Verstapen. Até o acidente de Latifi, safety car na pista. Posso estar ficando louco, safety car na pista sem realinhamento de 
-              posições? Acredito que o erro maior foi o Masi não ter permitido o realinhamento logo nos primeiros momentos de safety car. E a Mercedes porque não 
-              trocou os pneus de Hamilton? Essa é a penalização por estar na frente, não saber o que os de trás irão fazer... acho que não tinha como. Mesmo. Era só 
-              esperar a corrida terminar com o <abbr title="Safety-Car"> SC</abbr>... por isso o desespero no radio. Agora me diz, com tanta sorte desperdiçada durante 
-              o campeonato, tanto mimimi da equipe mais vencedora da era Híbrida... vai me dizer que perderam na última volta? Tropeçaram nas orelhas o campeonato inteiro. 
-              Bottas nunca ofereceu resistencia à Verstapen, mesmo marcando mais pontos que Checco e tirando pontos de Verstapen, não tem como dizer que brigou pelo time.
-              Hamilton no ano, sofreu com Verstapen, com Checco, com Alonso, com Norris, retardatários. Acho que não teve tantos rivais preparados nos anos anteriores. 
-              Queria ver Rosberg não se aposentando. Aquele 1<sup>o</sup> título, que era pra ser do Massa, tb foi culpa da Ferrari o ano todo tropeçando. Eu gosto do 
-              Hamilton, mas ele tá deixando de lado o esporte pra lutar por uma causa que pode ser nobre, mas não é o esporte. E a Mercedes pra mim ganha o troféu MIMIMI, 
-              reclamou de tudo e o tempo todo... ao contrário da Redbull que além de saber como seguir as regras, se antecipava negociando com o controle de prova, mas 
-              nunca retrucando ou fingindo demencia. Claro que o que a Liberty TV mostra pode ter sido só uma parte.</p>
-              <figure>
-                <a href="https://www.youtube.com/watch?v=7QJ-N-AQJYc" target="_blank">
-                  <img src="images/Screenshot 2022-04-23 at 16-08-45 Race Highlights 2021 Abu Dhabi Grand Prix.png" alt="Abu-Dhabi Race Highlights">
-                  <figcaption>Watch on YouTube</figcaption></a>
-              </figure>
-            <form class="abuDhabiV">
-              <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
-              <input type="radio" id="abuDhabiYes" name="abuDhabiVote" value="1"><label for="abuDhabiYes">👍</label> 
-              <input type="radio" id="abuDhabiNo" name="abuDhabiVote" value="0"><label for="abuDhabiNo">👎</label>
-        </ul>
-        
-        <ul class="table">
+          <p>
+            Última corrida do ano mega holofotes nessa disputa. E agora? Supermotor de Hamilton contra a agressividade de Verstapen. Houve uma disputa de posição 
+            logo na largada, Max mais uma vez força Lewis pra fora, que corta a chincane e não devolve a vantagem de distancia. Com os pneus macios se desgastando 
+            volta a volta a corrida vai ficando pra Hamilton, que nessa corrida foi impecavel. Nem Checco Perez segurando Hamilton pos 5,5s numa unica volta, 
+            foi épico, deu chance a Verstapen. Até o acidente de Latifi, safety car na pista. Posso estar ficando louco, safety car na pista sem realinhamento de 
+            posições? Acredito que o erro maior foi o Masi não ter permitido o realinhamento logo nos primeiros momentos de safety car. E a Mercedes porque não 
+            trocou os pneus de Hamilton? Essa é a penalização por estar na frente, não saber o que os de trás irão fazer... acho que não tinha como. Mesmo. Era só 
+            esperar a corrida terminar com o <abbr title="Safety-Car"> SC</abbr>... por isso o desespero no radio. Agora me diz, com tanta sorte desperdiçada durante 
+            o campeonato, tanto mimimi da equipe mais vencedora da era Híbrida... vai me dizer que perderam na última volta? Tropeçaram nas orelhas o campeonato inteiro. 
+            Bottas nunca ofereceu resistencia à Verstapen, mesmo marcando mais pontos que Checco e tirando pontos de Verstapen, não tem como dizer que brigou pelo time.
+            Hamilton no ano, sofreu com Verstapen, com Checco, com Alonso, com Norris, retardatários. Acho que não teve tantos rivais preparados nos anos anteriores. 
+            Queria ver Rosberg não se aposentando. Aquele 1<sup>o</sup> título, que era pra ser do Massa, tb foi culpa da Ferrari o ano todo tropeçando. Eu gosto do 
+            Hamilton, mas ele tá deixando de lado o esporte pra lutar por uma causa que pode ser nobre, mas não é o esporte. E a Mercedes pra mim ganha o troféu MIMIMI, 
+            reclamou de tudo e o tempo todo... ao contrário da Redbull que além de saber como seguir as regras, se antecipava negociando com o controle de prova, mas 
+            nunca retrucando ou fingindo demencia. Claro que o que a Liberty TV mostra pode ter sido só uma parte.
+          </p>
+          <figure>
+            <a href="https://www.youtube.com/watch?v=7QJ-N-AQJYc" target="_blank">
+              <img src="images/Screenshot 2022-04-23 at 16-08-45 Race Highlights 2021 Abu Dhabi Grand Prix.png" alt="Abu-Dhabi Race Highlights">
+              <figcaption>Watch on YouTube</figcaption>
+            </a>
+          </figure>
+          <form class="abuDhabiV">
+            <input type="text" disabled value="Sorte: 6 / Lambança: 5"> Do you agree with me? 
+            <input type="radio" id="abuDhabiYes" name="abuDhabiVote" value="1"><label for="abuDhabiYes">👍</label> 
+            <input type="radio" id="abuDhabiNo" name="abuDhabiVote" value="0"><label for="abuDhabiNo">👎</label>
+          </form>
+        </section>
+        <section class="table">
           <table>
             <caption>Resumo da opera</caption>
-            
             <thead>
               <tr>
                 <th>Matemática da temporada</th>
                 <th>2021</th>
               </tr>
             </thead>
-            
             <tbody>
               <tr>
                 <td>Sorte a favor da Mercedes / Lewis </td>
@@ -390,25 +420,17 @@
                 <td>Pontos potencialmente perdidos</td>
                 <td><span id="pontosPerdidos"></span></td>
               </tr>
-
             </tbody>
-          
             <tfoot>
               <td colspan="2"><p><span id="resultadoFinal"></span> pontos! pra não chorar na última volta</p>
               <p>E desses, concordamos em <span id="pontosUserFinal"></span> pontos!</p>
               </td>  
             </tfoot>
-
-        </table>
-        </ul>
-      
-        <br>
+          </table>
+        </section>
         </span>
-        
       </article>
-  
-      <br>
-    
+      <br>  
     </main>
 
     <svg width="100%" height="150px" alt="Drawing referencing a Brazil's flag">
@@ -420,25 +442,6 @@
               made in Brazil
       </text>
     </svg>
- 
-    <!--
-      Outros comandos: autoplay loop muted poster;
-      Pq o track não carrega???
-      <video poster="Hubadibaduba" controls width="800"> 
-        <source src="images/GoPro HERO3  Almost as Epic as the HERO3+[hd720].mp4"> 
-        <track kind="captions" src="images/WEBVTT.vtt"srclang="es" label="TelaClass">  
-      </video> 
-
-      Embeded video disabled by F1 management 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dMv5PaQ1fwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <audio controls>
-        <source src="images/Gold Finger - Superman.mp3" type="audio/mp3">
-        <source src="images/15 Track 15.wma" type="audio/wma">
-        <p>Your browser did support HTML5 audio. Here is a <a href="images/15 Track 15.wma">link to the audio</a>instead.</p>
-      </audio>
-  
-    -->
   
     <footer>
       <a id="contact" href="mailto:jj_kenji@hotmail.com?cc=jhonnykenji@gmail.com&subject=O%20que%20achei">Send a email to me</a>

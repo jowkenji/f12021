@@ -1,7 +1,7 @@
 html {
-    font-size: 20px;  /* px means "pixels": the base font size is now 10 pixels high  */
+    font-size: 20px;  
     font-family: 'Roboto', sans-serif;  /* this should be the rest of the output you got from Google fonts */
-    background-color: #00539F;
+    background-color: #152d7a;
     min-height: 100%;       /* Look, it's not fixed anymore! */
     display: flex;          /* fix the height problem */
     flex-direction: column; /* fix the height problem */
@@ -9,12 +9,16 @@ html {
 
 body {
     width: 90%;
-    max-width: 860px;
+    max-width: 1400px;
     margin: 0 auto;
-    background-color: #ff9500;
+    background-color: rgb(255, 200, 0); /*#ff9500 the orange*/
     padding: 0;
     border: 5px solid black;
     flex-grow: 1;           /* fix the height problem, look html is part of the solution*/
+}
+
+header > img {
+    margin-top: 15px;
 }
 
 nav {
@@ -34,25 +38,16 @@ nav > a {
     padding: 2px;
 }
 
-/* unused
-h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #00539F;
-    text-shadow: 3px 3px 2px black;
-    font-size: 60px;
-    text-align: center;
-}*/ 
-
 h2 {
     text-align: center;
     margin: 15px;
 }
 
-p, ul, time {
+p, 
+ul, 
+time {
     padding-left: 20px;
     padding-right: 20px;
-    
     line-height: 2;
     letter-spacing: 0px;
 }
@@ -69,7 +64,7 @@ img {
 }
 
 aside {
-    width: 27%;
+    width: 300px;
     padding-left: .5rem;
     margin-left: 0px;
     float: right;
@@ -86,11 +81,7 @@ article p:first-of-type {
     margin-bottom: 0em;
 }
 
-figcaption {
-    display: flex;
-    justify-content: space-around;
-}
-
+figcaption,
 .table {
     display: flex;
     justify-content: space-around;
@@ -147,6 +138,10 @@ form {
     flex-wrap: wrap;
     padding-left: 20px;
 }
+.login,
+.register {
+    padding: 0px;
+}
 
 fieldset label {
     width: 170px;
@@ -163,6 +158,7 @@ fieldset > p {
     padding: 0px;
     margin: 0px;
     max-width: 400px;
+    font-size: 14px;
 }
 
 .helmet {
@@ -183,4 +179,61 @@ fieldset > p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.navShort {
+    display: none;
+}
+
+@media all and (max-width: 960px) {
+    nav, 
+    p, 
+    time, 
+    input, 
+    figure, 
+    blockquote {
+        font-size: 14px;
+    }
+    aside {
+        width: 250px;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    nav, 
+    p, 
+    time, 
+    form, 
+    figure, 
+    blockquote {
+        font-size: 12px;
+    }
+    aside {
+        width: 200px;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 520px) {
+    aside {
+        display: none;
+    }   
+    .navShort {
+        display: inherit;
+        margin: 0px;
+    }
+    .homeIcon {
+        height: 20px;
+        width: auto;
+    }
+    .navLong {
+        display: none;
+    }
+    label.login {
+        width: 80px;
+    }
+    label.register {
+        width: 130px;
+    }
 }

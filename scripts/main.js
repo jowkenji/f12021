@@ -11,62 +11,6 @@ myImage.addEventListener('mouseleave', () => {
   myImage.setAttribute('src','images/F1logo_2018.png');
 })
 
-// **** Change user name **** => Disabled
-/*
-let myButton = document.querySelector('.user-change');
-let myHeading = document.querySelector('h1');
-
-function setUserName() {
-    let myName = prompt('Please enter your name:');
-    if(!myName) {
-        setUserName();
-      } else {
-        localStorage.setItem('name', myName);
-        myHeading.textContent = 'Welcome, ' + myName;
-      }
-}
-
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Welcome, ' + storedName;
-}
-
-myButton.onclick = function() {
-    setUserName();
-}
-*/
-
-// Resize fonts and hide aside content due window width
-let windowsWidth = window.innerWidth;
-let nav = document.querySelector('nav');
-let paraUL = document.querySelector('main');
-let aside = document.querySelector('aside'); // DOC manipulation with append/removeChild?
-
-if(windowsWidth < 700) {
-  nav.style.fontSize = '0.7em';
-  paraUL.style.fontSize = '12px';
-} else {
-  nav.style.fontSize = '1.0em';
-  paraUL.style.fontSize = '16px';
-};
-
-window.addEventListener('resize', () => {
-  windowsWidth = window.innerWidth;
-  if(windowsWidth < 700) {
-    nav.style.fontSize = '0.7em';
-    paraUL.style.fontSize = '12px';
-  } else {
-    nav.style.fontSize = '1.0em';
-    paraUL.style.fontSize = '16px';
-  }
-  
-});
-
-
-
-
 
 // **** Interactive board ****
 let resultadoFinal = document.querySelector('#resultadoFinal');

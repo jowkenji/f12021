@@ -1,5 +1,6 @@
 # F1 season 2021 blog
-<br>Hello! This is my very first website. It was designed when I was learning web development (HTML+CSS).
+<br>Direct link: https://jowkenji.github.io/f12021/
+<br>Hello! This is my very first website: It was designed when I was learning web development (HTML+CSS).
 <br>At first it was a completely mess! Because I put every < tag > that I was learning to see its effects.
 <br>You will find two main pages:
 <ul>
@@ -11,7 +12,7 @@
   <li> One subject only (F1 season 2021); Done ✔️</li>
   <li> Nav position and internal links; Done ✔️</li>
   <li> Nav and aside menu layout; still not the best but better; Done ✔️</li>
-  <li> Responsive layout (<strike>font-size, nav, body, images, forms, mobile</strike>✔️);⚠️ It would be better to hide aside when the windows width is less than 700px; the svg needs adjustments;</li>
+  <li> Responsive layout (<strike>font-size, nav, body, images, forms, mobile</strike>✔️);⚠️ the svg needs adjustments;</li>
   <li> Member's area, user login and create account; Done ✔️</li>
   <li> JavaScript interaction:</li>
   <ul>
@@ -29,4 +30,5 @@
   <li> 🔜 Add a 'Top' button to #Home; </li>
   <li> 🔜 User can say how many points he thinks it should be;</li>
   <li> 🔜 Favorite Team colors mode (like Dark / Light mode);</li>
+  <li> 🔜 Make the hidden menu for small screen;</li>
 <br> And for sure, we don't need to stop here.<br>

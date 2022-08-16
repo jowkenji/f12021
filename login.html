@@ -1,130 +1,131 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  
-<head>
-  <link rel="icon" href="https://img.icons8.com/color/48/000000/car-racing.png">
-  <link href="styles/style.css" rel="stylesheet">
+  <head>
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/car-racing.png">
+    <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta lang="en-US">
-    <meta name="viewport" content="width=device-width; user-scalable=yes">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <meta name="author" content="Jhonny Goya">
     <meta name="description" content="This page is used to put in practice all the new features that I learn. It doesn't have to make any sense."> <!--isso aparece na busca-->
     <title>This is my test page</title>
   </head>
-  <body>
+  <body id="home">
     <header>
-      <br>
       <img src="images/F1logo_2018.png" alt="F1 logo" id="f1Logo">
       <h2 id="subtitle">F1'2021: What are the odds?</h2>
     </header>
     <nav class="positioned">
-        <a href="index.html#home">Home</a>
-        <a href="https://www.formula1.com/" target="_blank">F1 Official Website</a>
-        <a href="login.html">Member's club (new!)</a>
-        <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/" target="_blank">References</a>
-        <a href="index.html#contact">Contact</a>
+      <div class="navShort">
+        <a href="index.html#home">
+          <img src="./images/icons8-home-144.png" alt="home icon" class="navShort homeIcon">
+        </a>
+        <p class="navShort">Menu</p>
+      </div>
+      <a href="index.html#home" class="navLong">Home</a>
+      <a href="https://www.formula1.com/" target="_blank" class="navLong">F1 Official Website</a>
+      <a href="login.html" class="navLong">Member's club (new!)</a>
+      <a href="https://the-race.com/formula-1/mark-hughes-where-the-2021-f1-title-was-really-won-and-lost/" target="_blank" class="navLong">References</a>
+      <a href="https://github.com/jowkenji" target="_blank" class="navLong">More work</a>
     </nav>
 
     <h2>Member's club</h2>
     <main class="loginmain">
       <form class="login">
-      <fieldset>
-        <legend>Log in</legend>
-        <p>
-          <label for="username">Login: </label>
-          <input type="text" id="username" name="username">
-        </p>
-        <p>
-          <label for="pwd">Password: </label>
-          <input type="password" id="pwd" name="pwd">
-        </p>
-        <p>
-          <button type="submit" id="btnlogin">Log in!</button>
-        </p>    
-
-      </fieldset>
+        <fieldset>
+          <legend>Log in</legend>
+          <p>
+            <label for="username" class="login">Login: </label>
+            <input type="text" id="username" name="username">
+          </p>
+          <p>
+            <label for="pwd" class="login">Password: </label>
+            <input type="password" id="pwd" name="pwd">
+          </p>
+          <p>
+            <button type="submit" id="btnlogin">Log in!</button>
+          </p>    
+        </fieldset>
       </form>
-        <p>
-          <label for="button">Don't you have an account? Create now!</label>
-        </p>
-
+      <p>
+        <label for="button">Don't you have an account? Create now!</label>
+      </p>
       <form class="register"> 
-      <fieldset>
-        <legend>Create an account</legend>
-        <p>
-          <label for="username">Username / Login: </label>
-          <input type="text" id="username" name="username">
-        </p>
-        <p>
-          <label for="pwd">Create a Password: </label>
-          <input type="password" id="pwd" name="pwd">
-        </p>
-        <p>
-          <label for="pwd">Confirm Password: </label>
-          <input type="password" id="pwd" name="pwd">
-        </p>
-        <p>
-          <label for="email">E-mail: </label>
-          <input type="email" id="email" name="email" placeholder="example@email.com">
-        </p>
-        <p>
-          <label for="avatar">Choose profile avatar: </label>
-          <input type="file" id="avatar" name="avatar" accept="image/*">
-        </p>
-        <p class="helmet">
-          <label for="helmetColor" id="helmetLabel">Helmet color:</label>
-          <input type="color" id="helmetColor" value="red">
-          <img src="images/icons8-motorbike-helmet-64-nocolor1.png" id="helmetIcon" class="colorable">
-        </p>
-        <p>
-          <label for="">Your Favourite Driver:</label>
-          <input type="text" list="listDrivers" id="favDriver">
-          <datalist id="listDrivers">
-            <option>Charles Leclerc</option>
-            <option>George Russel</option>
-            <option>Carlos Sainz Jr</option>
-            <option>Sergio Perez</option>
-            <option>Lewis Hamilton</option>
-            <option>Max Verstappen</option>
-            <option>Esteban Ocon</option>
-            <option>Lando Norris</option>
-            <option>Kevin Magnussen</option>
-            <option>Valteri Bottas</option>
-            <option>Daniel Ricciardo</option>
-            <option>Pierre Gasly</option>
-            <option>Yuki Tsunoda</option>
-            <option>Fernando Alonso</option>
-            <option>Guanyu Zhou</option>
-            <option>Alexander Albon</option>
-            <option>Mick Schummacher</option>
-            <option>Lance Stroll</option>
-            <option>Nico Hulkenberg</option>
-            <option>Nicholas Latifi</option>
-            <option>Sebastian Vettel</option>
-          </select>
-        </p>
-        <p>
-          <label for="favTeam">Your Favourite Team:</label>
-          <select id="favTeam" name="favTeam">
-            <option>Alfa Romeo</option>
-            <option>AlphaTauri</option>
-            <option>Alpine</option>
-            <option>Aston Martin</option>
-            <option>Ferrari</option>
-            <option>Haas</option>
-            <option>McLaren</option>
-            <option>Mercedes</option>
-            <option>RedBull</option>
-            <option>Williams</option>
-          </select>
-        </p>       
-        <p>
-          <input type="submit" value="Create!" id="btncreate">
-        </p>
-      </fieldset>
-    </form>
-
+        <fieldset>
+          <legend>Create an account</legend>
+          <p>
+            <label for="username" class="register">Username / Login: </label>
+            <input type="text" id="username" name="username">
+          </p>
+          <p>
+            <label for="pwd" class="register">Create a Password: </label>
+            <input type="password" id="pwd" name="pwd">
+          </p>
+          <p>
+            <label for="pwd" class="register">Confirm Password: </label>
+            <input type="password" id="pwd" name="pwd">
+          </p>
+          <p>
+            <label for="email" class="register">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="example@email.com">
+          </p>
+          <p>
+            <label for="avatar" class="register">Choose your avatar: </label>
+            <input type="file" id="avatar" name="avatar" accept="image/*">
+          </p>
+          <p class="helmet">
+            <label for="helmetColor" id="helmetLabel" class="register">Helmet color:</label>
+            <input type="color" id="helmetColor" value="#000000">
+            <img src="images/icons8-motorbike-helmet-64-nocolor1.png" id="helmetIcon" class="colorable">
+          </p>
+          <p>
+            <label for="" class="register">Favourite Driver:</label>
+            <input type="text" list="listDrivers" id="favDriver">
+              <datalist id="listDrivers">
+                <option>Charles Leclerc</option>
+                <option>George Russel</option>
+                <option>Carlos Sainz Jr</option>
+                <option>Sergio Perez</option>
+                <option>Lewis Hamilton</option>
+                <option>Max Verstappen</option>
+                <option>Esteban Ocon</option>
+                <option>Lando Norris</option>
+                <option>Kevin Magnussen</option>
+                <option>Valteri Bottas</option>
+                <option>Daniel Ricciardo</option>
+                <option>Pierre Gasly</option>
+                <option>Yuki Tsunoda</option>
+                <option>Fernando Alonso</option>
+                <option>Guanyu Zhou</option>
+                <option>Alexander Albon</option>
+                <option>Mick Schummacher</option>
+                <option>Lance Stroll</option>
+                <option>Nico Hulkenberg</option>
+                <option>Nicholas Latifi</option>
+                <option>Sebastian Vettel</option>
+              </datalist>
+          </p>
+          <p>
+            <label for="favTeam" class="register">Favourite Team:</label>
+            <select id="favTeam" name="favTeam">
+              <option>Alfa Romeo</option>
+              <option>AlphaTauri</option>
+              <option>Alpine</option>
+              <option>Aston Martin</option>
+              <option>Ferrari</option>
+              <option>Haas</option>
+              <option>McLaren</option>
+              <option>Mercedes</option>
+              <option>RedBull</option>
+              <option>Williams</option>
+            </select>
+          </p>       
+          <p>
+            <input type="submit" value="Create!" id="btncreate">
+          </p>
+        </fieldset>
+      </form>
     </main>
-        <script src="scripts/login.js" defer></script>
+    <script src="scripts/login.js" defer></script>
   </body>
